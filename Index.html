@@ -25,131 +25,127 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="overlay">
-            <i class="fa-solid fa-xmark"></i>
-            <a href="#">Əsas səhifə</a>
-            <a href="#">Toy maşını</a>
-            <a href="#">Vita</a>
-            <a href="#">Sedan</a>
-            <a href="#">Əlaqə</a>
-            <a href="#" class="elan__">Elan ver</a>
+    <header>
+        <div class="container">
+            <div class="overlay">
+                <i class="fa-solid fa-xmark"></i>
+                <a href="#">Əsas səhifə</a>
+                <a href="#">Toy maşını</a>
+                <a href="#">Vita</a>
+                <a href="#">Sedan</a>
+                <a href="#">Əlaqə</a>
+                <a href="#" class="elan__">Elan ver</a>
+            </div>
+            <div class="header">
+                <div class="logo">
+                    <h2>Logo</h2>
+                </div>
+                <nav>
+                    <div class="nav">
+                        <a href="#">Əsas səhifə</a>
+                        <a href="#">Toy maşını</a>
+                        <a href="#">Vita</a>
+                        <a href="#">Sedan</a>
+                        <a href="#">Əlaqə</a>
+                    </div>
+                </nav>
+                <div class="profilim_elanVer">
+                    <div class="img">
+                        <img src="/assets/img/user.svg" alt="asa">
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn"><img src="./assets/img/user.svg" alt="">
+                            <span>Profilim</span>
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content dis-none">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                    <a href="#" class="elan_">Elan ver</a>
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+    </header>
+
+    <section id="header_swiper">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper_image">
+                        <img src="assets/img/headerbluecar.png" alt="car" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper_image">
+                        <img src="assets/img/headerbluecar.png" alt="car" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper_image">
+                        <img src="assets/img/headerbluecar.png" alt="car" />
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
         </div>
-       <header>
-        <div class="header">
-            <div class="logo">
-                <h2>Logo</h2>
-            </div>
-            <nav>
-                <div class="nav">
-                    <a href="#">Əsas səhifə</a>
-                    <a href="#">Toy maşını</a>
-                    <a href="#">Vita</a>
-                    <a href="#">Sedan</a>
-                    <a href="#">Əlaqə</a>
-                </div>
-            </nav>
-            <div class="profilim_elanVer">
-                <div class="img">
-                    <img src="/assets/img/user.svg" alt="asa">
-                </div>
-                <div class="dropdown">
-                    <button class="dropbtn"><img src="./assets/img/user.svg" alt="">
-                        <span>Profilim</span>
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content dis-none">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
+        <div class="heading_form">
+            <form action="" class="form_heading">
+                <div class="right_side">
+                    <div class="form_seletion">
+                        <div class="select_text">
+                            <p>Şəhər</p>
+                        </div>
+                        <div class="select">
+                            <select name="" id="">
+                                <option value="">Lənkəran</option>
+                                <option value="">Lənkəran</option>
+                                <option value="">Lənkəran</option>
+                            </select>
+                        </div>
                     </div>
+                    <div class="border"></div>
+                    <div class="form_seletion">
+                        <div class="select_text">
+                            <p>Model</p>
+                        </div>
+                        <div class="select">
+                            <select name="" id="">
+                                <option value="">BMW</option>
+                                <option value="">BMW</option>
+                                <option value="">BMW</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="border"></div>
+                    <div class="form_seletion">
+                        <div class="select_text">
+                            <p>Rent a car</p>
+                        </div>
+                        <div class="select">
+                            <select name="" id="">
+                                <option value="">Karavan</option>
+                                <option value="">Karavan</option>
+                                <option value="">Karavan</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="border" id="none"></div>
                 </div>
-                <a href="#" class="elan_">Elan ver</a>
-                <i class="fa-solid fa-bars"></i>
-            </div>
+                <div class="search_items">
+                    <input type="text" class="search_input" placeholder="Daxil et" />
+                    <button type="submit" class="btn_search">Axtar</button>
+                    <div class="search_icon"><i class="bi bi-search"></i></div>
+                </div>
+            </form>
         </div>
-       </header>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
-        <section id="header_swiper">
-            <!-- Swiper -->
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="swiper_image">
-                            <img src="assets/img/headerbluecar.png" alt="car" />
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper_image">
-                            <img src="assets/img/headerbluecar.png" alt="car" />
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper_image">
-                            <img src="assets/img/headerbluecar.png" alt="car" />
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-            <div class="heading_form">
-                <form action="" class="form_heading">
-                    <div class="right_side">
-                        <div class="form_seletion">
-                            <div class="select_text">
-                                <p>Şəhər</p>
-                            </div>
-                            <div class="select">
-                                <select name="" id="">
-                                    <option value="">Lənkəran</option>
-                                    <option value="">Lənkəran</option>
-                                    <option value="">Lənkəran</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="border"></div>
-                        <div class="form_seletion">
-                            <div class="select_text">
-                                <p>Model</p>
-                            </div>
-                            <div class="select">
-                                <select name="" id="">
-                                    <option value="">BMW</option>
-                                    <option value="">BMW</option>
-                                    <option value="">BMW</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="border"></div>
-                        <div class="form_seletion">
-                            <div class="select_text">
-                                <p>Rent a car</p>
-                            </div>
-                            <div class="select">
-                                <select name="" id="">
-                                    <option value="">Karavan</option>
-                                    <option value="">Karavan</option>
-                                    <option value="">Karavan</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="border" id="none"></div>
-                    </div>
-                    <div class="search_items">
-                        <input type="text" class="search_input" placeholder="Daxil et" />
-                        <button type="submit" class="btn_search">Axtar</button>
-                        <div class="search_icon"><i class="bi bi-search"></i></div>
-                    </div>
-                </form>
-            </div>
-
-
-
-            <p>Salam Rentacar uzvleri</p>
-        </section>
-        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-        <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 
 
 
