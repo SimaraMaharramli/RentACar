@@ -677,13 +677,17 @@ border-radius: 6px;
         padding-top: 40px;
         align-items:center ;
     }
+    .arrow_top{
+        width: 300px;
+    }
     .arrow_bottom{
-        padding-top: 5%;
+        padding-top: 100px;
+        width: 300px;
     }
     
     
     .mashini_kirayele_txt p:nth-child(2){
-        width: 170px;
+        width: 220px;
     }
     
     .mekan_axtart_txt p:nth-child(2){
