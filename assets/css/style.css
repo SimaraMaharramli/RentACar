@@ -34,7 +34,7 @@
 }
 
 .fa-bars {
-    display: none;
+    visibility: hidden;
 }
 
 .fa-xmark {
@@ -169,7 +169,7 @@
     }
 
     .fa-bars {
-        display: flex;
+        visibility: inherit;
         margin-left: 30px;
         font-size: 25px;
     }
@@ -203,7 +203,7 @@
     }
 
     .fa-bars {
-        display: flex;
+        visibility: inherit;
         font-size: 25px;
     }
 
@@ -241,7 +241,7 @@
     }
 
     .fa-bars {
-        display: flex;
+        visibility: inherit;
         font-size: 18px;
     }
 
@@ -655,11 +655,11 @@ border-radius: 6px;
     }
     
     .mix_ img{
-        padding: 20px;
+        padding: 5px;
         border-radius: 10px;
         box-shadow: 5px 5px 25px #dddddd;
-        width:25px;
-        height: 25px;
+        width:50px;
+        height: 50px;
     
     }
     .mix__{
@@ -679,16 +679,16 @@ border-radius: 6px;
         align-items:center ;
     }
     .arrow_top{
-        width: 300px;
+        width: 320px;
     }
     .arrow_bottom{
-        padding-top: 100px;
-        width: 300px;
+        margin-top: 100px;
+        width: 320px;
     }
     
     
     .mashini_kirayele_txt p:nth-child(2){
-        width: 220px;
+        width: 200px;
     }
     
     .mekan_axtart_txt p:nth-child(2){
@@ -856,6 +856,8 @@ border-radius: 6px;
     .sedan_mashini {
         padding-bottom: 50px;
     }
+
+    
     
     
     .Best p:nth-child(1){
@@ -887,6 +889,7 @@ border-radius: 6px;
         width:20px;
         height: 20px;
     }
+
 
     
 
@@ -925,7 +928,7 @@ border-radius: 6px;
     
 }
 
-@media(max-width:1000px){
+@media(max-width:1020px){
     .arrow_top{
         display: none;
     }
@@ -933,7 +936,7 @@ border-radius: 6px;
         display: none;
     }
     .mix{
-        padding: 0 15px;
+        margin: 0 15px;
     }
 
 }
@@ -977,7 +980,7 @@ border-radius: 6px;
         display: none;
     }
     .mix{
-        padding: 0 15px;
+        margin: 0 15px;
     }
 
 
@@ -1007,16 +1010,14 @@ border-radius: 6px;
 
 
 }
-@media(max-width:690px){
+@media(max-width:707px){
     .mix{
-        padding: 15px;
+        margin: 15px;
     }
-    
 }
-
 @media(max-width:500px){
     .mix{
-        padding: 15px;
+        margin: 15px;
     }
 
 
