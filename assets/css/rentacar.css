@@ -1,4 +1,80 @@
-.vita_mashini,.sedan_mashini{
+
+.border_ve_melumat_detail {
+    display: flex;
+    width: 84%;
+    height: 230px;
+    border: 1px solid #30A6A9;
+    border-radius: 10px;
+    align-items: center;
+    gap: 60px;
+    padding-left: 30px;
+
+
+}
+
+.rent_a_car_melumat_detail {
+    display: flex;
+    justify-content: center;
+}
+
+.rentacar_melumat_hisse_detail {
+    width: 100%;
+}
+
+.rentacar_melumat_hisse_detail p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.mashin_img_detail img {
+    border-radius: 50%;
+    width: 150px;
+
+}
+
+.rentacar_melumat_hisse_detail span {
+    color: #30A6A9;
+
+}
+
+.rentacar_melumat_hisse_detail p:nth-child(2) {
+    font-size: 14px;
+
+}
+
+.rentacar_melumat_hisse_detail p:nth-child(1) {
+    font-size: 22px;
+}
+
+.rentacar_melumat_hisse_detail p {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.elaqe_alt_detail {
+    display: none;
+}
+
+.rentacar_melumat_hisse_detail p:nth-child(1),
+.elaqe_alt_detail p {
+    font-size: 22px;
+}
+
+.elaqe_detail {
+    padding-left: 5%;
+    width: 100%;
+}
+
+.elaqe_detail a,
+.elaqe_alt_detail a {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    gap: 10px;
+}
+.toy_mashini,.vita_mashini,.sedan_mashini{
     margin-top: 2rem;
 }
 .mashin_melumat{
@@ -26,7 +102,7 @@
     top: 0;
     left: 0;
     z-index: +2;
-    transform: translateY(-500px) ;
+    transform: translateY(-900px) ;
     background-color: transparent;
     transition: .4s ease-in;
 }
@@ -165,4 +241,153 @@ border: none;
     top: 15px;
     right: 15px;
     font-size: 1.2rem;
+}
+@media(max-width:1200px) {
+    .border_ve_melumat {
+        display: flex;
+        width: 84%;
+        height: 330px;
+        border: 1px solid #30A6A9;
+        border-radius: 10px;
+        align-items: center;
+        gap: 60px;
+        padding-left: 30px;
+    }
+}
+
+@media(max-width:1070px) {
+    .elaqe_detail {
+        display: none;
+    }
+    .elaqe_alt_detail {
+        display: block;
+    }
+    .border_ve_melumat_detail {
+        display: flex;
+        width: 84%;
+        height: 330px;
+        border: 1px solid #30A6A9;
+        border-radius: 10px;
+        align-items: center;
+        gap: 60px;
+        padding-left: 30px;
+    }
+}
+@media(max-width:768px) {
+    .elaqe_detail {
+        visibility: inherit;
+    }
+
+    .elaqe_alt_detail {
+        display: block;
+    }
+    .border_ve_melumat_detail {
+        display: flex;
+        width: 84%;
+        height: 330px;
+        border: 1px solid #30A6A9;
+        border-radius: 10px;
+        align-items: center;
+        gap: 60px;
+        padding-left: 30px;
+    }
+}
+@media(max-width:600px) {
+    .border_ve_melumat_detail {
+        display: block;
+        width: 84%;
+        height: 485px;
+        border: 1px solid #30A6A9;
+        border-radius: 10px;
+        align-items: center;
+        gap: 60px;
+        padding-left: 30px;
+
+    }
+    .mashin_img_detail {
+        padding-top: 20px;
+    }
+}
+@media(max-width:630px){
+    .pop_up_body{
+        width: 400px;
+    }
+
+    .btns_pop {
+
+justify-content: space-between;
+display: flex;
+align-items: center;
+    }
+    .btn1_pop,.btn2_pop{
+    width: 40%;
+    }
+}
+
+@media(max-width:500px) {
+    .border_ve_melumat_detail {
+        display: block;
+        width: 84%;
+        height: 500px;
+        border: 1px solid #30A6A9;
+        border-radius: 10px;
+        align-items: center;
+        gap: 60px;
+        padding-left: 5px;
+
+    }
+}
+
+@media(max-width:450px) {
+    .border_ve_melumat_detail {
+        display: block;
+        width: 84%;
+        height: 520px;
+        border: 1px solid #30A6A9;
+        border-radius: 10px;
+        align-items: center;
+        gap: 60px;
+        padding-left: 30px;
+    }
+    .pop_up_body{
+        width: 290px;
+    }
+   .pop_up_body, .labels_flex>.label1_flex label{
+    font-size: 12px;
+   }
+.pop_up_body input{
+    height: 40px;
+}
+.box_file span{
+    font-size: 13px;
+}
+
+}
+
+@media(max-width:351px) {
+    .border_ve_melumat_detail {
+        display: block;
+        width: 84%;
+        height: 540px;
+        border: 1px solid #30A6A9;
+        border-radius: 10px;
+        align-items: center;
+        gap: 60px;
+        padding-left: 30px;
+
+    }
+}
+@media(max-width:300px) {
+
+    .border_ve_melumat_detail {
+        display: block;
+        width: 84%;
+        height: 580px;
+        border: 1px solid #30A6A9;
+        border-radius: 10px;
+        align-items: center;
+        gap: 60px;
+        padding-left: 30px;
+    }
+
 }
