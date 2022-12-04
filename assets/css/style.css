@@ -529,7 +529,7 @@ border-radius: 6px;
     }
     @media (max-width:484px) {
         .heading_form{
-         width: 395px ;
+         width: 370px ;
          height: auto;
         } 
         .form_heading{
@@ -537,7 +537,7 @@ border-radius: 6px;
             display: flex;
         }
         .right_side{
-            gap: 30px;
+            gap: 15px;
         }
         .swiper_image img{
             height: 500px;

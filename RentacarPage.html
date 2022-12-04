@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cookie&family=Edu+VIC+WA+NT+Beginner:wght@400;600&family=Ibarra+Real+Nova:ital,wght@1,400;1,600&family=Jost:wght@200;300;400;500;600;800;900&family=Montserrat:wght@200;300;500;600;700;800&family=Oleo+Script+Swash+Caps&family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/rentacar.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="overlay">
+                <i class="fa-solid fa-xmark"></i>
+                <a href="#">Əsas səhifə</a>
+                <a href="#">Toy maşını</a>
+                <a href="#">Vita</a>
+                <a href="#">Sedan</a>
+                <a href="#">Əlaqə</a>
+                <a href="#" class="elan__">Elan ver</a>
+            </div>
+            <div class="header">
+                <div class="logo">
+                    <h2>Logo</h2>
+                </div>
+                <nav>
+                    <div class="nav">
+                        <a href="#">Əsas səhifə</a>
+                        <a href="#">Toy maşını</a>
+                        <a href="#">Vita</a>
+                        <a href="#">Sedan</a>
+                        <a href="#">Əlaqə</a>
+                    </div>
+                </nav>
+                <div class="profilim_elanVer">
+                    <div class="img">
+                        <img src="/assets/img/user.svg" alt="asa">
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn"><img src="./assets/img/user.svg" alt="">
+                            <span>Profilim</span>
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content dis-none">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                    <a href="#" class="elan_">Elan ver</a>
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+    </header>
+    <main>       
+            <div class="pop_up" id="pop_up">
+                <div class="pop_up_container">
+                    <div class="pop_up_body" id="pop_up_body">
+                    <form action="">
+                        <label for="ad">Ad, Soyad*</label>
+                        <input type="text" placeholder="Ad Soyad" class="first_input">
+                        <div class="labels_flex">
+                            <div class="label1_flex">
+                                
+                        <label for="tel">Əlaqə nömrəsi*</label> <br>
+                        <input type="text" placeholder="+994 ">
+                
+                            </div>
+                            <div class="label1_flex">
+                                
+                        <label for="email">Email adresi*</label> <br>
+                        <input type="text" placeholder="logo@gmail.com">
+                            </div>
+                        </div>
+                       <div class="file_con">
+                        <label for="vesige">Sürücülük vəsiqəsinin şəkli*</label> <br>
+                        <div class="box_file">
+                            <span> Digər şəkilləri yükləyin və ya bura atın</span>
+                             <button> Seç <input type="file" name="" id="" class="hide"></button>
+                        </div>
+                       </div>
+                        <div class="btns_pop">
+                            <div class="btn1_pop">
+                                <button type="submit">Geri</button>
+                            </div>
+                            <div class="btn2_pop">
+                                <button type="submit">Göndər</button>
+                            </div>
+                        </div>
+                    </form>
+                <div class="pop_up_close" id="pop_up_close">&#10006</div>
+                    </div>
+                </div>
+            </div>
+        <section id="rentacar_middle">
+            <div class="toy_mashini">
+                <div class="mashin_img">
+                    <div class="jeep mashin_melumat">
+                        <div class="img_">
+                            <img src="./assets/img/jeep.svg" alt="">
+                        </div>
+                        <p> Jeep</p>
+                        <p><i class="fa-solid fa-manat-sign"></i> 50 <span>/gunluk</span> </p>
+                        <div class="border"></div>
+                        <div class="icone_text">
+                            <p>A</p>
+                            <p>Avtomat</p>
+                            <img src="./assets/img/dizel.svg" alt="">
+                            <p>Dizel</p>
+                        </div>
+                        <div class="bron_btn">
+                            <button type="submit" class="btn_bron" id="open_pop_up">Bron Et</button>
+                        </div>
+    
+                    </div>
+                    <div class="Mybach mashin_melumat">
+                        <div class="img_">
+                            <img src="./assets/img/mybach.svg" alt="">
+                        </div>
+                        <p> Mybach</p>
+                        <p><i class="fa-solid fa-manat-sign"></i> 50 <span>/günlük</span> </p>
+                        <div class="border"></div>
+                        <div class="icone_text">
+                            <p>A</p>
+                            <p>Avtomat</p>
+                            <img src="./assets/img/dizel.svg" alt="">
+                            <p>Dizel</p>
+                        </div>
+                        <div class="bron_btn">
+                            <button type="submit" class="btn_bron" id="open_pop_up">Bron Et</button>
+                        </div>
+                    </div>
+                    <div class="Retro_BN mashin_melumat">
+                        <div class="img_">
+                            <img src="./assets/img/retroBn.svg" alt="">
+                        </div>
+                        <p> Retro BN</p>
+                        <p><i class="fa-solid fa-manat-sign"></i> 50 <span>/günlük</span> </p>
+                        <div class="border"></div>
+                        <div class="icone_text">
+                            <p>A</p>
+                            <p>Avtomat</p>
+                            <img src="./assets/img/dizel.svg" alt="">
+                            <p>Dizel</p>
+                        </div>
+                        <div class="bron_btn">
+                            <button type="submit" class="btn_bron" id="open_pop_up">Bron Et</button>
+                        </div>
+                    </div>
+                    <div class="Retro_CP mashin_melumat">
+                        <div class="img_">
+                            <img src="./assets/img/retroCp.svg" alt="">
+                        </div>
+                        <p> Retro CP</p>
+                        <p><i class="fa-solid fa-manat-sign"></i> 50 <span>/günlük</span> </p>
+                        <div class="border"></div>
+                        <div class="icone_text">
+                            <p>A</p>
+                            <p>Avtomat</p>
+                            <img src="./assets/img/dizel.svg" alt="">
+                            <p>Dizel</p>
+                        </div>
+                        <div class="bron_btn">
+                            <button type="submit" class="btn_bron" id="open_pop_up">Bron Et</button>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="vita_mashini">
+                <div class="mashin_img">
+                    <div class="vita_500 mashin_melumat">
+                        <div class="img_">
+                            <img src="./assets/img/vita500.svg" alt="">
+                        </div>
+                        <p> Vita 500</p>
+                        <p><i class="fa-solid fa-manat-sign"></i> 500 <span>/aylıq</span> </p>
+                        <div class="border"></div>
+                        <div class="icone_text">
+                            <p>A</p>
+                            <p>Avtomat</p>
+                            <img src="./assets/img/dizel.svg" alt="">
+                            <p>Dizel</p>
+                        </div>
+                        <div class="bron_btn">
+                            <button type="submit" class="btn_bron" id="open_pop_up">Bron Et</button>
+                        </div>
+                    </div>
+                    <div class="vita_cs mashin_melumat">
+                        <div class="img_">
+                            <img src="./assets/img/vitaCs.svg" alt="">
+                        </div>
+                        <p> Vita CS</p>
+                        <p><i class="fa-solid fa-manat-sign"></i> 400 <span>/aylıq</span> </p>
+                        <div class="border"></div>
+                        <div class="icone_text">
+                            <p>A</p>
+                            <p>Avtomat</p>
+                            <img src="./assets/img/dizel.svg" alt="">
+                            <p>Dizel</p>
+                        </div>
+                        <div class="bron_btn">
+                            <button type="submit" class="btn_bron" id="open_pop_up">Bron Et</button>
+                        </div>
+                    </div>
+                    <div class="vita_bk mashin_melumat">
+                        <div class="img_">
+                            <img src="./assets/img/vitaBk.svg" alt="">
+                        </div>
+                        <p> Vita Bk</p>
+                        <p><i class="fa-solid fa-manat-sign"></i> 400 <span>/aylıq</span> </p>
+                        <div class="border"></div>
+                        <div class="icone_text">
+                            <p>A</p>
+                            <p>Avtomat</p>
+                            <img src="./assets/img/dizel.svg" alt="">
+                            <p>Dizel</p>
+                        </div>
+                        <div class="bron_btn">
+                            <button type="submit" class="btn_bron" id="open_pop_up">Bron Et</button>
+                        </div>
+                    </div>
+                    <div class="vita_4t mashin_melumat">
+                        <div class="img_">
+                            <img src="./assets/img/vita4T.svg" alt="">
+                        </div>
+                        <p> Vita 4T</p>
+                        <p><i class="fa-solid fa-manat-sign"></i> 380 <span>/aylıq</span> </p>
+                        <div class="border"></div>
+                        <div class="icone_text">
+                            <p>A</p>
+                            <p>Avtomat</p>
+                            <img src="./assets/img/dizel.svg" alt="">
+                            <p>Dizel</p>
+                        </div>
+                        <div class="bron_btn">
+                            <button type="submit" class="btn_bron" id="open_pop_up">Bron Et</button>
+                        </div>
+                    </div>
+    
+                </div>
+    
+            </div>
+            <div class="sedan_mashini">
+                <div class="mashin_img">
+                    <div class="audi mashin_melumat">
+                        <div class="img_">
+                            <img src="./assets/img/audi.svg" alt="">
+                        </div>
+                        <p> Audi</p>
+                        <p><i class="fa-solid fa-manat-sign"></i> 500 <span>/aylıq</span> </p>
+                        <div class="border"></div>
+                        <div class="icone_text">
+                            <p>A</p>
+                            <p>Avtomat</p>
+                            <img src="./assets/img/dizel.svg" alt="">
+                            <p>Dizel</p>
+                        </div>
+                        <div class="bron_btn">
+                            <button type="submit" class="btn_bron" id="open_pop_up">Bron Et</button>
+                        </div>
+                    </div>
+                    <div class="nissan_bm mashin_melumat">
+                        <div class="img_">
+                            <img src="./assets/img/nissanBm.svg" alt="">
+                        </div>
+                        <p> Nissan BM</p>
+                        <p><i class="fa-solid fa-manat-sign"></i> 500 <span>/aylıq</span> </p>
+                        <div class="border"></div>
+                        <div class="icone_text">
+                            <p>A</p>
+                            <p>Avtomat</p>
+                            <img src="./assets/img/dizel.svg" alt="">
+                            <p>Dizel</p>
+                        </div>
+                        <div class="bron_btn">
+                            <button type="submit" class="btn_bron" id="open_pop_up">Bron Et</button>
+                        </div>
+                    </div>
+                    <div class="audi_q3 mashin_melumat">
+                        <div class="img_">
+                            <img src="./assets/img/audiQ3.svg" alt="">
+                        </div>
+                        <p> Audi Q3</p>
+                        <p><i class="fa-solid fa-manat-sign"></i> 500 <span>/aylıq</span> </p>
+                        <div class="border"></div>
+                        <div class="icone_text">
+                            <p>A</p>
+                            <p>Avtomat</p>
+                            <img src="./assets/img/dizel.svg" alt="">
+                            <p>Dizel</p>
+                        </div>
+                        <div class="bron_btn">
+                            <button type="submit" class="btn_bron" id="open_pop_up">Bron Et</button>
+                        </div>
+                    </div>
+                    <div class="audi_q3 mashin_melumat">
+                        <div class="img_">
+                            <img src="./assets/img/audiQ3_.svg" alt="">
+                        </div>
+                        <p> Audi Q3</p>
+                        <p><i class="fa-solid fa-manat-sign"></i> 500 <span>/aylıq</span> </p>
+                        <div class="border"></div>
+                        <div class="icone_text">
+                            <p>A</p>
+                            <p>Avtomat</p>
+                            <img src="./assets/img/dizel.svg" alt="">
+                            <p>Dizel</p>
+                        </div>
+                        <div class="bron_btn">
+                            <button type="submit" class="btn_bron" id="open_pop_up">Bron Et</button>
+                        </div>
+                    </div>
+    
+                </div>
+    
+    
+            </div>
+        </section>
+
+    </main>
+     <footer>
+        <div class="container-footer">
+            <div class="row-footer">
+                <!-- footer col-->
+                <div class="footer-col">
+                    <h4><b>Logo</b></h4>
+                    <ul>
+                        <li><a href="#">Subscribe to keep up with up latest news</a></li>
+                    </ul>
+                </div>
+                <!--end footer col-->
+                <!-- footer col-->
+                <div class="footer-col">
+                    <h4>Haqqimizda</h4>
+                    <ul>
+                        <li><a href="#">Our Praduct</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Our Service</a></li>
+                    </ul>
+                </div>
+                <!--end footer col-->
+                <!-- footer col-->
+                <div class="footer-col">
+                    <h4>Elaqe</h4>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <!--end footer col-->
+                <!-- footer col-->
+                <div class="footer-col">
+                    <h4>Se subescreva!</h4>
+                    <div class="form-sub">
+                        <form>
+                            <input type="email" placeholder="Elamil addres" required>
+                            <button>subscrever</button>
+                        </form>
+                    </div>
+
+                    <div class="medias-socias">
+                        <a href="#"> <i class="fa fa-facebook"></i> </a>
+                        <a href="#"> <i class="fa fa-instagram"></i> </a>
+                        <a href="#"> <i class="fa fa-twitter"></i> </a>
+                        <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                    </div>
+
+                </div>
+                <!--end footer col-->
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/b39b112ecb.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="assets/js/rentcarpage.js"></script>
+</body>
+
+</html>
