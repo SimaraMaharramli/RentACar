@@ -1,0 +1,103 @@
+.first_form_container{
+    display: grid;
+    place-items: center;
+   
+}
+.f_f_header_text{
+    margin: 25px 0;
+}
+.first_form_container .f_f_header_text h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 35px;
+    color: #282C4B;
+    text-align: center;
+}
+.first_form_container .f_f_header_text p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161616;
+    text-align: center;
+}
+.second_form_elan{
+    position: relative;
+}
+.second_form_elan p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161616;
+}
+.second_form_elan .label{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+padding: 16px 0px;
+color: #161616;
+
+}
+.second_form_elan input{
+    border: 1px solid #E2E8EE;
+    border-radius: 4px;
+    width: 340px;
+    height: 50px;
+    padding: 10px;
+}
+.icon_insta{
+    position: absolute;
+    bottom: 10px;
+    left: 12px;
+}
+.radio_box{
+    display: flex;
+    align-items: center;
+    gap :20px;
+    margin-top: 12px;
+}
+.radio_box .radio input{
+    width: 20px;
+    height: 20px;
+}
+.radio_box .labelfor_input label {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #000000;
+padding: 20px 0px !important;
+}
+.second_form_elan .instagram{
+    padding: 0px 40px;
+}
+.f_f_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    width: 341px;
+}
+.f_f_btn button {
+background-color: #30A6A9;
+width: 341px;
+height: 48px;
+border-radius: 6px;
+border: none;
+outline: none;
+color: white;
+}
+@media(max-width:361px){
+.second_form_elan input{
+    width: 250px;
+}
+.f_f_btn{
+    width: 280px;
+}
+.f_f_btn button {
+width: 250px;
+}
+}
