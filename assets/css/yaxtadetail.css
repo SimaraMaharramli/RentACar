@@ -50,15 +50,9 @@
     width: 50%;
 }
 
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 30px 0;
-}
-
 .logo h2 {
     font-size: 30px;
+    font-weight: bold;
 }
 
 .nav {
@@ -165,6 +159,10 @@
     display: none;
 }
 
+.shekiller_yaxtacun{
+    padding-top: 100px;
+}
+
 
 
 .product-div {
@@ -172,9 +170,18 @@
     justify-content: center;
 }
 
+
 .img-container img {
-    width: 714px;
-    height: 416px;
+    width: 770px ;
+    height: 516px ;
+
+}
+
+
+
+.hover-container img{
+    width: 250px;
+    height: 215px;
 }
 
 .hover-container {
@@ -195,7 +202,8 @@
     display: flex;
     width: 84%;
     height: 150px;
-    border: 1px solid #30A6A9;
+    border: 1px solid 
+    #D3EAEB;
     border-radius: 10px;
     align-items: center;
     gap: 20px;
@@ -238,9 +246,10 @@
 .ab p {
     font-size: 14px;
     padding-right: 15px;
+    padding-top: 5px;
 
 }
-
+/* 
 .mahin_haqqinda_melumat {
     display: flex;
     justify-content: space-around;
@@ -329,7 +338,7 @@
     font-size: 20px;
     width: 100%;
 
-}
+} */
 
 footer {
     background-color: #2E2C2C;

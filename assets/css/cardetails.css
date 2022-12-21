@@ -50,12 +50,19 @@
     width: 50%;
 }
 
-.header {
+.header{
+    position:fixed;
     display: flex;
-    align-items: center;
     justify-content: space-around;
-    padding: 30px 0;
-}
+    width: 100%;
+    background-color: white;
+    padding: 20px 0;
+    z-index: +4;
+    margin: 0;
+    align-items: center;
+
+
+  }
 
 .logo h2 {
     font-size: 30px;
@@ -81,45 +88,30 @@
     text-decoration: none;
 }
 
-.dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
+
+.dropdown-content select{
     outline: none;
+    border: none;
     color: #30A6A9;
-    padding: 14px 16px;
-    background-color: inherit;
-    margin: 0;
-}
+    background-color: white;
+    outline: 1px solid white;
+    border: 1px solid white;
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: +2;
 }
-
-.dropdown-content a {
+.dropdown-content option{
+    outline: 1px solid white;
+    border: 1px solid white;
     color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+    background-color: white;
+
 }
 
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
 
 .profilim_elanVer img {
     width: 30px;
     height: 30px;
 }
+
 
 .elan___ {
 
@@ -137,10 +129,11 @@
     border-radius: 5px;
 }
 
+
 .nav a:hover::after,
 .overlay a:hover::after {
-    width: 100%;
-    left: 0;
+    width: 100% ;
+
 }
 
 .dropbtn img {
@@ -155,6 +148,7 @@
     display: block;
     height: 4px;
     right: 0;
+    left: 0;
     position: absolute;
     background-color: #30A6A9;
     transition: width .5s ease 0s, right .5s ease 0s;
@@ -175,6 +169,10 @@
     gap: 60px;
     padding-left: 30px;
 
+
+}
+.rent_a_car_melumat{
+    padding-top: 100px;
 
 }
 
@@ -217,7 +215,7 @@
 
 .rentacar_melumat_hisse p {
     font-size: 18px;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .elaqe_alt {
@@ -240,6 +238,7 @@
     color: black;
     text-decoration: none;
     gap: 10px;
+    padding-top: 10px;
 }
 
 .product-div {
@@ -247,18 +246,30 @@
     justify-content: center;
 }
 
+
+
 .img-container img {
-    width: 714px;
-    height: 416px;
+    width: 770px ;
+    height: 516px ;
+
+}
+
+
+
+.hover-container img{
+    width: 250px;
+    height: 215px;
 }
 
 .hover-container {
     display: flex;
     align-items: center;
+
 }
 
 .hover-container img {
     padding-left: 20px;
+
 }
 
 .product-div-left {
@@ -270,7 +281,8 @@
     display: flex;
     width: 84%;
     height: 150px;
-    border: 1px solid #30A6A9;
+    border: 1px solid
+    #D3EAEB;
     border-radius: 10px;
     align-items: center;
     gap: 20px;
@@ -298,6 +310,7 @@
 
 .ad_ve_marka p {
     font-size: 22px;
+    font-weight: bold;
 }
 
 .baxish_yenilendi_elaninnomu {
@@ -313,14 +326,21 @@
 .ab p {
     font-size: 14px;
     padding-right: 15px;
+    padding-top: 5px;
 
 }
 
 .mahin_haqqinda_melumat {
     display: flex;
-    justify-content: space-around;
-    width: 100%;
+    justify-content: space-between;
+
+    width:80%;
     padding-left: 1%;
+}
+
+.elaqe_{
+    padding-left: 120px;
+
 }
 
 .elaqe_ p {
@@ -399,12 +419,14 @@
     display: none;
 }
 
+
 .avtomobil_techizati p {
     padding: 20px 0;
     font-size: 20px;
     width: 100%;
 
 }
+
 
 footer {
     background-color: #2E2C2C;
@@ -517,12 +539,57 @@ footer {
 
 /* Responsivo */
 
+@media(max-width:1400px){
+    .border_ve_melumat {
+        display: flex;
+        width: 84%;
+        height: 250px;
+        border: 1px solid #30A6A9;
+        border-radius: 10px;
+        align-items: center;
+        gap: 60px;
+        padding-left: 30px;
+    }
+    
+
+    .product-div {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .img-container img {
+        width: 100%;
+        height: 416px;
+    }
+
+    .hover-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .first_car,
+    .second_car {
+        display: flex;
+    }
+    .hover-container img {
+        padding-left: 20px;
+
+    }
+
+    .product-div-left {
+        display: block;
+        padding: 20px 0;
+    }
+
+}
+
 @media(max-width:1200px) {
 
     .border_ve_melumat {
         display: flex;
         width: 84%;
-        height: 330px;
+        height: 280px;
         border: 1px solid #30A6A9;
         border-radius: 10px;
         align-items: center;
@@ -550,7 +617,6 @@ footer {
     .second_car {
         display: flex;
     }
-
     .hover-container img {
         padding-left: 20px;
 
@@ -580,7 +646,7 @@ footer {
     .border_ve_melumat {
         display: flex;
         width: 84%;
-        height: 330px;
+        height: 400px;
         border: 1px solid #30A6A9;
         border-radius: 10px;
         align-items: center;
@@ -603,6 +669,29 @@ footer {
         padding: 0;
     }
 
+    .avtomobil_techizati {
+        display: none;
+    }
+
+    .avtomobil_techizati_clone {
+        display: block;
+        padding-top: 20px;
+    }
+
+    .elaqe_{
+        padding: 0;
+    }
+    
+    .mahin_haqqinda_melumat {
+        display: flex;
+        justify-content: space-around;
+    
+        width:100%;
+        margin: 0;
+        padding-left: 0;
+    }
+    
+
 }
 
 @media(max-width:860px) {
@@ -624,6 +713,18 @@ footer {
         width: 160px;
 
     }
+    .elaqe_{
+        padding: 0;
+    }
+    
+    .mahin_haqqinda_melumat {
+        display: flex;
+        justify-content: space-around;
+    
+        width:100%;
+        margin: 0;
+        padding-left: 0;
+    }
 }
 
 @media (max-width: 800px) {
@@ -634,9 +735,9 @@ footer {
 }
 
 @media(max-width:768px) {
-    .dis-none {
+    /* .dis-none {
         display: none;
-    }
+    } */
     .nav a {
         display: none;
     }
@@ -646,11 +747,6 @@ footer {
         margin-left: 30px;
         font-size: 25px;
     }
-
-    .dis-none {
-        visibility: inherit;
-    }
-
     .nav a:hover::after,
     .overlay a:hover::after {
         width: 0;
@@ -688,7 +784,7 @@ footer {
     .border_ve_melumat {
         display: flex;
         width: 84%;
-        height: 330px;
+        height: 390px;
         border: 1px solid #30A6A9;
         border-radius: 10px;
         align-items: center;
@@ -754,7 +850,7 @@ footer {
     .border_ve_melumat {
         display: block;
         width: 84%;
-        height: 485px;
+        height: 525px;
         border: 1px solid #30A6A9;
         border-radius: 10px;
         align-items: center;
@@ -818,10 +914,6 @@ footer {
         display: none;
     }
 
-    .dis-none {
-        display: none;
-    }
-
     .dropbtn span {
         display: none;
     }
@@ -834,7 +926,7 @@ footer {
     .border_ve_melumat {
         display: block;
         width: 84%;
-        height: 500px;
+        height: 550px;
         border: 1px solid #30A6A9;
         border-radius: 10px;
         align-items: center;
@@ -930,13 +1022,16 @@ footer {
     .border_ve_melumat {
         display: block;
         width: 84%;
-        height: 520px;
+        height: 590px;
         border: 1px solid #30A6A9;
         border-radius: 10px;
         align-items: center;
         gap: 60px;
         padding-left: 30px;
 
+    }
+    .ab_ p,.ab p{
+        font-size: 11px;
     }
 
 }
@@ -984,10 +1079,13 @@ footer {
 }
 
 @media(max-width:351px) {
+    .fa-bars{
+        margin-left: -10px;
+    }
     .border_ve_melumat {
         display: block;
         width: 84%;
-        height: 540px;
+        height: 620px;
         border: 1px solid #30A6A9;
         border-radius: 10px;
         align-items: center;
@@ -1030,14 +1128,7 @@ footer {
         display: none;
     }
 
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 30%;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-    }
+
 
     .border_ve_melumat {
         display: block;

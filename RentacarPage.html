@@ -27,14 +27,15 @@
 
 <body>
     <header>
-        <div class="container">
+        <div class="container" id="Əsas səhifə">
             <div class="overlay">
                 <i class="fa-solid fa-xmark"></i>
-                <a href="#">Əsas səhifə</a>
-                <a href="#">Toy maşını</a>
-                <a href="#">Vita</a>
-                <a href="#">Sedan</a>
-                <a href="#">Əlaqə</a>
+                <a href="#Əsas səhifə">Əsas səhifə</a>
+                <a href="#Yaxta">Yaxta</a>
+                <a href="#Toy maşını">Toy maşını</a>
+                <a href="#Mini Van">Mini Van</a>
+                <a href="#Sedan">Sedan</a>
+                <a href="#Əlaqə">Əlaqə</a>
                 <a href="#" class="elan__">Elan ver</a>
             </div>
             <div class="header">
@@ -42,27 +43,26 @@
                     <h2>Logo</h2>
                 </div>
                 <nav>
-                    <div class="nav">
-                        <a href="#">Əsas səhifə</a>
-                        <a href="#">Toy maşını</a>
-                        <a href="#">Vita</a>
-                        <a href="#">Sedan</a>
-                        <a href="#">Əlaqə</a>
+                    <div class="nav" id="nav ">
+                        <a href="#Əsas səhifə" class="esasSehife"  >Əsas səhifə</a>
+                        <a href="#Yaxta" class="yaxtaSehife">Yaxta</a>
+                        <a href="#Toy maşını" class="toyMashini">Toy maşını</a>
+                        <a href="#Mini Van" class="miniVan">Mini Van</a>
+                        <a href="#Sedan" class="sedann">Sedan</a>
+                        <a href="#Əlaqə" class="elaqeee">Əlaqə</a>
                     </div>
                 </nav>
-                <div class="profilim_elanVer">
+                <div class="profilim_elanVer" >
                     <div class="img">
                         <img src="/assets/img/user.svg" alt="asa">
                     </div>
-                    <div class="dropdown">
-                        <button class="dropbtn"><img src="./assets/img/user.svg" alt="">
-                            <span>Profilim</span>
-                            <i class="fa fa-caret-down"></i>
-                        </button>
+                    <div class="dropdown" >
                         <div class="dropdown-content dis-none">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
+                            <select name="" id="">
+                                <option value="">Profilim</option>
+                                <option value="">Lənkəran</option>
+                                <option value="">Lənkəran</option>
+                            </select>
                         </div>
                     </div>
                     <a href="#" class="elan_">Elan ver</a>
@@ -71,7 +71,7 @@
             </div>
     </header>
     <main>       
-        <section id="RentACar_Melumat" class="RentACar_Melumat">
+        <section id="RentACar_Melumat" class="RentACar_Melumat" >
 
             <div class="rent_a_car_melumat_detail">
                 <div class="border_ve_melumat_detail">
@@ -84,7 +84,7 @@
                         <p>Məlumat</p>
                         <p><img src="./assets/img/cardetails_img/Vector (3).svg" alt=""> Baki şəhəri, Xətai rayonu. Əhmədli qəsəbəsi</p>
                         <p><img src="./assets/img/cardetails_img/Vector (4).svg" alt="">Bazar ərtəsi - Cümə: 09:00 - 18:00</p>
-                        <p><img src="./assets/img/cardetails_img/Vector (4).svg" alt="">Şənbə:10:00 - 16:00</p>
+                        <p><img src="./assets/img/cardetails_img/Vector (4).svg" alt="">Şənbə: 10:00 - 16:00</p>
                         <div class="elaqe_alt_detail">
                             <p>Əlaqə</p>
                             <a href="tel:050 512 12 12"><img src="./assets/img/img/Vector (2).svg" alt="">+994 (50) 512 12 12 </a>
@@ -93,7 +93,7 @@
                     </div>
 
 
-                    <div class="elaqe_detail">
+                    <div class="elaqe_detail" >
                         <p>Əlaqə</p>
                         <a href="tel:050 512 12 12"><img src="./assets/img/cardetails_img/Vector (2).svg" alt="">+994 (50) 512 12 12 </a>
                         <a href="tel:050 512 12 12"><img src="./assets/img/cardetails_img/Vector (2).svg" alt="">+994 (50) 512 12 12 </a>
@@ -142,7 +142,7 @@
                 </div>
             </div>
         <section id="rentacar_middle">
-            <div class="toy_mashini">
+            <div class="toy_mashini" id="Toy maşını">
                 <div class="mashin_img">
                     <div class="jeep mashin_melumat">
                         <div class="img_">
@@ -216,7 +216,7 @@
     
                 </div>
             </div>
-            <div class="vita_mashini">
+            <div class="vita_mashini" id="Mini Van">
                 <div class="mashin_img">
                     <div class="vita_500 mashin_melumat">
                         <div class="img_">
@@ -290,7 +290,7 @@
                 </div>
     
             </div>
-            <div class="sedan_mashini">
+            <div class="sedan_mashini" id="Sedan">
                 <div class="mashin_img">
                     <div class="audi mashin_melumat">
                         <div class="img_">

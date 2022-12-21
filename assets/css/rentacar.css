@@ -1,8 +1,51 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  .van a:nth-child(1){
+    border-bottom: 4px solid #30A6A9 ;
+
+  }
+  .vann a:nth-child(2){
+    border-bottom: 4px solid #30A6A9 ;
+
+  }
+  .vannn a:nth-child(3){
+    border-bottom: 4px solid #30A6A9 ;
+
+  }
+  .vannnn a:nth-child(4){
+    border-bottom: 4px solid #30A6A9 ;
+
+  }
+  .vannnnn a:nth-child(5){
+    border-bottom: 4px solid #30A6A9 ;
+
+  }
+  .vannnnnn a:nth-child(6){
+    border-bottom: 4px solid #30A6A9 ;
+
+  }
+
+  .header{
+    position:fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 1%;
+    background-color: white;
+    padding: 20px 0;
+
+  }
+
+  .RentACar_Melumat{
+    padding-top: 100px;
+  }
 
 .border_ve_melumat_detail {
     display: flex;
     width: 84%;
-    height: 230px;
+    height: 270px;
     border: 1px solid #30A6A9;
     border-radius: 10px;
     align-items: center;
@@ -50,7 +93,8 @@
 
 .rentacar_melumat_hisse_detail p {
     font-size: 18px;
-    padding-top: 10px;
+    padding-top: 15px;
+
 }
 
 .elaqe_alt_detail {
@@ -69,6 +113,7 @@
 
 .elaqe_detail a,
 .elaqe_alt_detail a {
+    padding-top: 10px;
     display: flex;
     color: black;
     text-decoration: none;
@@ -265,7 +310,7 @@ border: none;
     .border_ve_melumat_detail {
         display: flex;
         width: 84%;
-        height: 330px;
+        height: 370px;
         border: 1px solid #30A6A9;
         border-radius: 10px;
         align-items: center;
@@ -284,7 +329,7 @@ border: none;
     .border_ve_melumat_detail {
         display: flex;
         width: 84%;
-        height: 330px;
+        height: 380px;
         border: 1px solid #30A6A9;
         border-radius: 10px;
         align-items: center;
@@ -296,7 +341,7 @@ border: none;
     .border_ve_melumat_detail {
         display: block;
         width: 84%;
-        height: 485px;
+        height: 545px;
         border: 1px solid #30A6A9;
         border-radius: 10px;
         align-items: center;
@@ -328,7 +373,7 @@ align-items: center;
     .border_ve_melumat_detail {
         display: block;
         width: 84%;
-        height: 500px;
+        height: 550px;
         border: 1px solid #30A6A9;
         border-radius: 10px;
         align-items: center;
@@ -342,7 +387,7 @@ align-items: center;
     .border_ve_melumat_detail {
         display: block;
         width: 84%;
-        height: 520px;
+        height: 570px;
         border: 1px solid #30A6A9;
         border-radius: 10px;
         align-items: center;
@@ -368,7 +413,7 @@ align-items: center;
     .border_ve_melumat_detail {
         display: block;
         width: 84%;
-        height: 540px;
+        height: 610px;
         border: 1px solid #30A6A9;
         border-radius: 10px;
         align-items: center;
@@ -382,7 +427,7 @@ align-items: center;
     .border_ve_melumat_detail {
         display: block;
         width: 84%;
-        height: 580px;
+        height: 650px;
         border: 1px solid #30A6A9;
         border-radius: 10px;
         align-items: center;
