@@ -5,6 +5,34 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+  .van a:nth-child(1){
+    border-bottom: 4px solid #30A6A9 ;
+
+  }
+  .vann a:nth-child(2){
+    border-bottom: 4px solid #30A6A9 ;
+
+  }
+  .vannn a:nth-child(3){
+    border-bottom: 4px solid #30A6A9 ;
+
+  }
+  .vannnn a:nth-child(4){
+    border-bottom: 4px solid #30A6A9 ;
+
+  }
+  .vannnnn a:nth-child(5){
+    border-bottom: 4px solid #30A6A9 ;
+
+  }
+  .vannnnnn a:nth-child(6){
+    border-bottom: 4px solid #30A6A9 ;
+
+  }
+
 .overlay {
     background: linear-gradient(0deg, rgba(187, 210, 197, 1) 0%, rgba(83, 105, 118, 1) 50%);
     position: fixed;
@@ -49,12 +77,18 @@
     width: 50%;
 }
 
-.header {
+.header{
+    position:fixed;
     display: flex;
-    align-items: center;
     justify-content: space-around;
-    padding: 30px 0;
-}
+    width: 100%;
+    background-color: white;
+    padding: 20px 0;
+    z-index: +4;
+    margin: 0;
+    align-items: center;
+
+  }
 
 .logo h2 {
     font-size: 30px;
@@ -79,40 +113,23 @@
     text-decoration: none;
 }
 
-.dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
+.dropdown-content select{
     outline: none;
+    border: none;
     color: #30A6A9;
-    padding: 14px 16px;
-    background-color: inherit;
-    margin: 0;
-}
+    background-color: white;
+    outline: 1px solid white;
+    border: 1px solid white;
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: +2;
 }
-
-.dropdown-content a {
+.dropdown-content option{
+    outline: 1px solid white;
+    border: 1px solid white;
     color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+    background-color: white;
+
 }
 
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
 
 .profilim_elanVer img {
     width: 30px;
@@ -162,7 +179,6 @@
 .dropbtn img {
     display: none;
 }
-
 @media(max-width:768px) {
     .nav a {
         display: none;
@@ -173,11 +189,6 @@
         margin-left: 30px;
         font-size: 25px;
     }
-
-    .dis-none {
-        display: none;
-    }
-
     .nav a:hover::after,
     .overlay a:hover::after {
         width: 0;
@@ -187,6 +198,16 @@
     .elan_ {
         display: none;
     }
+    .header{
+        position:fixed;
+        display: flex;
+        justify-content: space-between;
+        width: 85%;
+        background-color: white;
+        padding: 20px 0;
+        z-index: +4;
+    
+      }
 }
 
 @media(max-width:500px) {
@@ -219,9 +240,7 @@
         display: none;
     }
 
-    .dis-none {
-        display: none;
-    }
+
 
     .dropbtn span {
         display: none;
@@ -270,6 +289,7 @@
 }
 #header_swiper{
     position: relative;
+    padding-top: 100px;
 }
 .swiper {
     width: 100%;
@@ -452,6 +472,17 @@ border-radius: 6px;
         top:24px;
         right: 22%;
     }
+    .header{
+        position:fixed;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        background-color: white;
+        padding: 20px 0;
+        z-index: +4;
+        margin: 0;
+    
+      }
    }
    @media (max-width:800px) {
     .heading_form{
@@ -474,6 +505,7 @@ border-radius: 6px;
         top: 24px;
         right: 23%;
        }
+
    }
    @media (max-width:768px) {
      .heading_form{
@@ -503,6 +535,7 @@ border-radius: 6px;
          top:24px;
          right: 22%;
      }
+     
     }
 @media (max-width:610px) {
     .heading_form{

@@ -29,13 +29,12 @@
         <div class="container">
             <div class="overlay">
                 <i class="fa-solid fa-xmark"></i>
-                <a href="#">Əsas səhifə</a>
-                <a href="#">Yaxta</a>
-                <a href="#">Toy maşını</a>
-                <a href="#">Vita</a>
-                <a href="#">Sedan</a> 
-                <a href="#">Yaxta</a> 
-                <a href="#">Əlaqə</a>
+                <a href="#Əsas səhifə">Əsas səhifə</a>
+                <a href="#Yaxta">Yaxta</a>
+                <a href="#Toy maşını">Toy maşını</a>
+                <a href="#Mini Van">Mini Van</a>
+                <a href="#Sedan">Sedan</a>
+                <a href="#Əlaqə">Əlaqə</a>
                 <a href="#" class="elan__">Elan ver</a>
             </div>
             <div class="header">
@@ -44,27 +43,25 @@
                 </div>
                 <nav>
                     <div class="nav">
-                        <a href="#">Əsas səhifə</a>
-                        <a href="#">Yaxta</a>
-                        <a href="#">Toy maşını</a>
-                        <a href="#">Vita</a>
-                        <a href="#">Sedan</a>
-                        <a href="#">Əlaqə</a>
+                        <a href="#Əsas səhifə" class="esasSehife"  >Əsas səhifə</a>
+                        <a href="#Yaxta" class="yaxtaSehife">Yaxta</a>
+                        <a href="#Toy maşını" class="toyMashini">Toy maşını</a>
+                        <a href="#Mini Van" class="miniVan">Mini Van</a>
+                        <a href="#Sedan" class="sedann">Sedan</a>
+                        <a href="#Əlaqə" class="elaqeee">Əlaqə</a>
                     </div>
                 </nav>
-                <div class="profilim_elanVer">
+                <div class="profilim_elanVer" id="Əsas səhifə">
                     <div class="img">
                         <img src="/assets/img/user.svg" alt="asa">
                     </div>
                     <div class="dropdown">
-                        <button class="dropbtn"><img src="./assets/img/user.svg" alt="">
-                            <span>Profilim</span>
-                            <i class="fa fa-caret-down"></i>
-                        </button>
                         <div class="dropdown-content dis-none">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
+                            <select name="" id="">
+                                <option value="">Profilim</option>
+                                <option value="">link</option>
+                                <option value="">link</option>
+                            </select>
                         </div>
                     </div>
                     <a href="#" class="elan_">Elan ver</a>
@@ -74,7 +71,7 @@
     </header>
     <main>       
 
-        <section id="header_swiper">
+        <section id="header_swiper" class="header_swiper">
             <!-- Swiper -->
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
@@ -267,7 +264,7 @@
                 </div>
             </div>
 
-            <div class="Yaxta">
+            <div class="Yaxta" id="Yaxta">
                 <div class=" yaxta_text">
                     <h1>Yaxta</h1>
                     <a href="#">Hamısına bax</a>
@@ -317,7 +314,7 @@
     
             </div>
     
-            <div class="toy_mashini">
+            <div class="toy_mashini" id="Toy maşını">
                 <div class="mashin_text">
                     <h1>Toy maşını</h1>
                     <a href="#">Hamısına bax</a>
@@ -389,9 +386,9 @@
     
             </div>
     
-            <div class="vita_mashini">
+            <div class="vita_mashini" id="Mini Van">
                 <div class="mashin_text">
-                    <h1>Vita</h1>
+                    <h1>Mini Van</h1>
                     <a href="#">Hamısına bax</a>
                 </div>
     
@@ -461,7 +458,7 @@
     
             </div>
     
-            <div class="sedan_mashini">
+            <div class="sedan_mashini" id="Sedan">
                 <div class="mashin_text">
                     <h1>Sedan</h1>
                     <a href="#">Hamısına bax</a>

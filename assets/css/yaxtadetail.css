@@ -50,15 +50,9 @@
     width: 50%;
 }
 
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 30px 0;
-}
-
 .logo h2 {
     font-size: 30px;
+    font-weight: bold;
 }
 
 .nav {
@@ -81,39 +75,22 @@
     text-decoration: none;
 }
 
-.dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
+
+.dropdown-content select{
     outline: none;
+    border: none;
     color: #30A6A9;
-    padding: 14px 16px;
-    background-color: inherit;
-    margin: 0;
-}
+    background-color: white;
+    outline: 1px solid white;
+    border: 1px solid white;
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: +2;
 }
-
-.dropdown-content a {
+.dropdown-content option{
+    outline: 1px solid white;
+    border: 1px solid white;
     color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
+    background-color: white;
 
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
 }
 
 .profilim_elanVer img {
@@ -165,6 +142,10 @@
     display: none;
 }
 
+.shekiller_yaxtacun{
+    padding-top: 100px;
+}
+
 
 
 .product-div {
@@ -172,9 +153,16 @@
     justify-content: center;
 }
 
+
 .img-container img {
-    width: 714px;
-    height: 416px;
+    width: 770px ;
+    height: 516px ;
+
+}
+
+.hover-container img{
+    width: 250px;
+    height: 215px;
 }
 
 .hover-container {
@@ -195,7 +183,8 @@
     display: flex;
     width: 84%;
     height: 150px;
-    border: 1px solid #30A6A9;
+    border: 1px solid 
+    #D3EAEB;
     border-radius: 10px;
     align-items: center;
     gap: 20px;
@@ -238,9 +227,10 @@
 .ab p {
     font-size: 14px;
     padding-right: 15px;
+    padding-top: 5px;
 
 }
-
+/* 
 .mahin_haqqinda_melumat {
     display: flex;
     justify-content: space-around;
@@ -328,8 +318,6 @@
     padding: 20px 0;
     font-size: 20px;
     width: 100%;
-
-}
 @media(max-width:1200px) {
 
 

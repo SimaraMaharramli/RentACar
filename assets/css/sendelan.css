@@ -1,6 +1,8 @@
+
 .first_form_container{
     display: grid;
     place-items: center;
+    padding-top: 100px;
    
 }
 .f_f_header_text{

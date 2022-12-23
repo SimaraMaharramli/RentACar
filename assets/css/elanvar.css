@@ -1,11 +1,14 @@
+
 .first_form_container{
     display: grid;
     place-items: center;
+    padding-top: 100px;
    
 }
 .f_f_header_text{
     margin: 25px 0;
 }
+
 .first_form_container .f_f_header_text h1{
     font-style: normal;
     font-weight: 600;
