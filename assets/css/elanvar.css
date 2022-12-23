@@ -103,9 +103,13 @@ color: #212121;
 }
 .file_con .box_file .hide{
     opacity: 0;
-    width: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80px;
 }
 .box_file{
+    position: relative;
     width: 828px;
     display: flex;
     justify-content: space-between;
@@ -129,7 +133,7 @@ cursor: pointer;
 outline: none;
 border: none;
 display: flex;
-justify-content: end;
+justify-content: center;
 align-items: center;
 }
 .box_file span{

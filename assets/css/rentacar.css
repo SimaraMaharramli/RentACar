@@ -86,7 +86,7 @@
     padding: 10px;
 }
 .bron_btn button{
-    width: 230px;
+    width: 240px;
     height: 48px;
     border-radius: 7px;
     background: #30A6A9;
@@ -162,10 +162,13 @@ color: #161616;
 }
 .file_con .box_file .hide{
     opacity: 0;
-    width: 10px;
+position: absolute;
+top: 36px;
+right: 10px;
+width: 85px;
 }
 .box_file{
-    
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
