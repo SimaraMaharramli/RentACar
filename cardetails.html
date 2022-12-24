@@ -18,6 +18,11 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="./assets/js/cardetails.js" defer></script>
     <link rel="stylesheet" href="./assets/css/cardetails.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
     <title>Document</title>
 </head>
 
@@ -39,13 +44,26 @@
                     <h2>Logo</h2>
                 </div>
                 <nav>
-                    <div class="nav ">
-                        <a href="#">Əsas səhifə</a>
-                        <a href="#">Yaxta</a>
-                        <a href="#">Toy maşını</a>
-                        <a href="#">Mini Van</a>
-                        <a href="#">Sedan</a>
-                        <a href="#">Əlaqə</a>
+                    <div class="nav">
+                        <div class="esasSehive hover_effect_e">
+                            <a href="#Əsas səhifə" class="esasSehife">Əsas səhifə</a>
+                        </div>
+                        <div class="yahta hover_effect_y">
+                            <a href="#Yaxta" class="yaxtaSehife">Yaxta</a>
+                        </div>
+                        <div class="Toy_ma_shini hover_effect_t">
+                            <a href="#Toy maşını" class="toyMashini">Toy maşını</a>
+                        </div>
+                        <div class="mini_van_ hover_effect_m">
+                            <a href="#Mini Van" class="miniVan ">Mini Van</a>
+                        </div>
+                        <div class="sedan_n hover_effect_s">
+                            <a href="#Sedan" class="sedann">Sedan</a>
+                        </div>
+                        <div class="elaqes hover_effect_el">
+                            <a href="#Əlaqə" class="elaqes">Əlaqə</a>
+                        </div>
+
                     </div>
                 </nav>
                 <div class="profilim_elanVer">
@@ -69,7 +87,7 @@
 
     <main>
 
-        <section id="RentACar_Melumat" class="RentACar_Melumat">
+        <section id="RentACar_Melumat" class="RentACar_Melumat dis__none">
 
             <div class="rent_a_car_melumat">
                 <div class="border_ve_melumat">
@@ -80,24 +98,50 @@
                     <div class="rentacar_melumat_hisse">
                         <p><span>Khatai</span> Rent A Car</p>
                         <p>Məlumat</p>
-                        <p><img src="./assets/img/cardetails_img/Vector (3).svg" alt=""> Baki şəhəri, Xətai rayonu. Əhmədli qəsəbəsi</p>
-                        <p><img src="./assets/img/cardetails_img/Vector (4).svg" alt="">Bazar ərtəsi - Cümə: 09:00 - 18:00</p>
+                        <p><img src="./assets/img/cardetails_img/Vector (3).svg" alt=""> Baki şəhəri, Xətai rayonu.
+                            Əhmədli qəsəbəsi</p>
+                        <p><img src="./assets/img/cardetails_img/Vector (4).svg" alt="">Bazar ərtəsi - Cümə: 09:00 -
+                            18:00</p>
                         <p><img src="./assets/img/cardetails_img/Vector (4).svg" alt="">Şənbə: 10:00 - 16:00</p>
                         <div class="elaqe_alt">
                             <p>Əlaqə</p>
-                            <a href="tel:050 512 12 12"><img src="./assets/img/img/Vector (2).svg" alt="">+994 (50) 512 12 12 </a>
-                            <a href="tel:050 512 12 12"><img src="./assets/img/img/Vector (2).svg" alt="">+994 (50) 512 12 12 </a>
+                            <a href="tel:050 512 12 12"><img src="./assets/img/img/Vector (2).svg" alt="">+994 (50) 512
+                                12 12 </a>
+                            <a href="tel:050 512 12 12"><img src="./assets/img/img/Vector (2).svg" alt="">+994 (50) 512
+                                12 12 </a>
                         </div>
                     </div>
 
 
                     <div class="elaqe">
                         <p>Əlaqə</p>
-                        <a href="tel:050 512 12 12"><img src="./assets/img/cardetails_img/Vector (2).svg" alt="">+994 (50) 512 12 12 </a>
-                        <a href="tel:050 512 12 12"><img src="./assets/img/cardetails_img/Vector (2).svg" alt="">+994 (50) 512 12 12 </a>
+                        <a href="tel:050 512 12 12"><img src="./assets/img/cardetails_img/Vector (2).svg" alt="">+994
+                            (50) 512 12 12 </a>
+                        <a href="tel:050 512 12 12"><img src="./assets/img/cardetails_img/Vector (2).svg" alt="">+994
+                            (50) 512 12 12 </a>
                     </div>
 
                 </div>
+            </div>
+        </section>
+        <section class="rent_a_car_melumat_mobile ">
+            <div class="melumat_border_mobile">
+
+
+                <div class="rentacar_melumat_hisse">
+                    <p><span>Khatai</span> Rent A Car</p>
+                    <p>Məlumat</p>
+                    <p><img src="./assets/img/cardetails_img/Vector (3).svg" alt=""> Baki şəhəri, Xətai rayonu.
+                        Əhmədli qəsəbəsi</p>
+                    <p><img src="./assets/img/cardetails_img/Vector (4).svg" alt="">Bazar ərtəsi - Cümə: 09:00 -
+                        18:00</p>
+                    <p><img src="./assets/img/cardetails_img/Vector (4).svg" alt="">Şənbə: 10:00 - 16:00</p>
+     
+                </div>
+
+
+
+
             </div>
         </section>
 
@@ -124,10 +168,42 @@
             </div>
 
             </div>
+
+            <div class="swiper mySwiper">
+               
+                <div class="swiper-wrapper mobile">
+                    <div class="swiper-slide">
+                        <div class="swiper_image">
+                            <img src="./assets/img/cardetails_img/27577_64P73Q9Ito-aUoGY1HGcFw.svg" alt="watch">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper_image">
+                            <img src="./assets/img/cardetails_img/27577_64P73Q9Ito-aUoGY1HGcFw.svg" alt="watch">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper_image">
+                            <img src="./assets/img/cardetails_img/27577_64P73Q9Ito-aUoGY1HGcFw.svg" alt="watch">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+
         </section>
+        
+
+
 
         <section id="mashin_qiymet" class="mashin_qiymet">
+            
+
+
+
             <div class="border_mashin_melumat">
+                
                 <div class="qiymet">
                     <p><i class="fa-solid fa-manat-sign"></i> 50 <br> /günlük</p>
                 </div>
@@ -150,15 +226,34 @@
 
         </section>
 
+        <section id="mobile_car_price_model">
+            <div class="mobilepriceModel">
+                <div class="modelstocar">
+                    <p>Nissan Tida, 1.8 L, 2008 il, 130 000 km</p>
+
+                </div>
+                <div class="price_car">
+                    <div class="price">
+                        <p><i class="fa-solid fa-manat-sign"></i> 50 <br> <span>/günlük</span></p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
         <section id="mashin_melumat">
             <div class="mahin_haqqinda_melumat">
                 <div class="elaqe_">
                     <p>Əlaqə</p>
-                    <a href="tel:050 512 12 12"><img src="./assets/img/cardetails_img/Vector (2).svg" alt="">+994 (50) 512 12 12 </a>
-                    <a href="tel:050 512 12 12"><img src="./assets/img/cardetails_img/Vector (2).svg" alt="">+994 (50) 512 12 12 </a>
+                    <a href="tel:050 512 12 12"><img src="./assets/img/cardetails_img/Vector (2).svg" alt="">+994 (50)
+                        512 12 12 </a>
+                    <a href="tel:050 512 12 12"><img src="./assets/img/cardetails_img/Vector (2).svg" alt="">+994 (50)
+                        512 12 12 </a>
                     <div></div>
                     <form action="">
-                        <input type="button" value="Bron et">
+                        <input type="button" value="Bron et " class="inp">
                     </form>
                 </div>
 
@@ -282,17 +377,20 @@
                     <div class="form-sub">
                         <form>
                             <input type="email" placeholder="Elamil addres" required>
-                            <button><svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0.901574 6.12891C0.962951 6.11884 1.02506 6.1142 1.08721 6.11501H11.6694L11.4387 6.00655C11.2131 5.89867 11.0079 5.75184 10.8323 5.57272L7.86477 2.57385C7.47394 2.19682 7.40828 1.59031 7.70915 1.13678C8.05933 0.6535 8.73088 0.548567 9.20914 0.902445C9.24778 0.931051 9.2845 0.962233 9.31902 0.995787L14.6852 6.41869C15.1046 6.84202 15.105 7.52873 14.6861 7.95253C14.6858 7.9528 14.6855 7.9531 14.6852 7.95337L9.31902 13.3763C8.89931 13.7992 8.21978 13.7983 7.80122 13.3741C7.76828 13.3408 7.73753 13.3052 7.70915 13.2678C7.40828 12.8143 7.47394 12.2078 7.86477 11.8308L10.8269 8.82646C10.9844 8.66716 11.1654 8.53359 11.3635 8.43059L11.6855 8.28417H1.14627C0.598014 8.30474 0.117 7.91772 0.0140018 7.37312C-0.0808792 6.78186 0.316489 6.22482 0.901574 6.12891Z" fill="#272727"/>
+                            <button><svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.901574 6.12891C0.962951 6.11884 1.02506 6.1142 1.08721 6.11501H11.6694L11.4387 6.00655C11.2131 5.89867 11.0079 5.75184 10.8323 5.57272L7.86477 2.57385C7.47394 2.19682 7.40828 1.59031 7.70915 1.13678C8.05933 0.6535 8.73088 0.548567 9.20914 0.902445C9.24778 0.931051 9.2845 0.962233 9.31902 0.995787L14.6852 6.41869C15.1046 6.84202 15.105 7.52873 14.6861 7.95253C14.6858 7.9528 14.6855 7.9531 14.6852 7.95337L9.31902 13.3763C8.89931 13.7992 8.21978 13.7983 7.80122 13.3741C7.76828 13.3408 7.73753 13.3052 7.70915 13.2678C7.40828 12.8143 7.47394 12.2078 7.86477 11.8308L10.8269 8.82646C10.9844 8.66716 11.1654 8.53359 11.3635 8.43059L11.6855 8.28417H1.14627C0.598014 8.30474 0.117 7.91772 0.0140018 7.37312C-0.0808792 6.78186 0.316489 6.22482 0.901574 6.12891Z"
+                                        fill="#272727" />
                                 </svg>
-                                </button>
+                            </button>
                         </form>
                     </div>
 
-                   
+
 
                 </div>
-            
+
                 <div class="end_text">
                     <div class="text">
                         <p>Copyright © 2022 All rights reserved.</p>
@@ -303,12 +401,13 @@
                         <a href="#"> <i class="fa fa-twitter"></i> </a>
                     </div>
                 </div>
-              
+
 
             </div>
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/b39b112ecb.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 </body>
 
 </html>

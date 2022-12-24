@@ -14,11 +14,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="./assets/js/yaxtadetail.js" defer></script>
 <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/cardetails.css">
     <link rel="stylesheet" href="./assets/css/yaxtadetail.css">
+
     <title>Document</title>
 </head>
 
@@ -41,12 +47,25 @@
                 </div>
                 <nav>
                     <div class="nav">
-                        <a href="#">Əsas səhifə</a>
-                        <a href="#">Yaxta</a>
-                        <a href="#">Toy maşını</a>
-                        <a href="#">Mini Van</a>
-                        <a href="#">Sedan</a>
-                        <a href="#">Əlaqə</a>
+                        <div class="esasSehive hover_effect_e">
+                            <a href="#Əsas səhifə" class="esasSehife">Əsas səhifə</a>
+                        </div>
+                        <div class="yahta hover_effect_y">
+                            <a href="#Yaxta" class="yaxtaSehife">Yaxta</a>
+                        </div>
+                        <div class="Toy_ma_shini hover_effect_t">
+                            <a href="#Toy maşını" class="toyMashini">Toy maşını</a>
+                        </div>
+                        <div class="mini_van_ hover_effect_m">
+                            <a href="#Mini Van" class="miniVan ">Mini Van</a>
+                        </div>
+                        <div class="sedan_n hover_effect_s">
+                            <a href="#Sedan" class="sedann">Sedan</a>
+                        </div>
+                        <div class="elaqes hover_effect_el">
+                            <a href="#Əlaqə" class="elaqes">Əlaqə</a>
+                        </div>
+                        
                     </div>
                 </nav>
                 <div class="profilim_elanVer">
@@ -93,6 +112,29 @@
             </div>
 
             </div>
+
+            <div class="swiper mySwiper">
+               
+                <div class="swiper-wrapper mobile">
+                    <div class="swiper-slide">
+                        <div class="swiper_image">
+                            <img src="./assets/img/yaxtadetail_img/yaxtadetail.svg" alt="watch">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper_image">
+                            <img src="./assets/img/yaxtadetail_img/yaxtadetail.svg" alt="watch">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper_image">
+                            <img src="./assets/img/yaxtadetail_img/yaxtadetail.svg" alt="watch">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
         </section>
 
         <section id="mashin_qiymet" class="mashin_qiymet">
@@ -117,6 +159,22 @@
                 </div>
             </div>
 
+        </section>
+
+        <section id="mobile_car_price_model">
+            <div class="mobilepriceModel">
+                <div class="modelstocar">
+                    <p>Nissan Tida, 1.8 L, 2008 il, 130 000 km</p>
+
+                </div>
+                <div class="price_car">
+                    <div class="price">
+                        <p><i class="fa-solid fa-manat-sign"></i> 50 <br> <span>/günlük</span></p>
+                    </div>
+                </div>
+
+
+            </div>
         </section>
 
         <section id="mashin_melumat">

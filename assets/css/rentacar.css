@@ -6,26 +6,7 @@ html {
     border-bottom: 4px solid #30A6A9 ;
 
   }
-  .vann a:nth-child(2){
-    border-bottom: 4px solid #30A6A9 ;
 
-  }
-  .vannn a:nth-child(3){
-    border-bottom: 4px solid #30A6A9 ;
-
-  }
-  .vannnn a:nth-child(4){
-    border-bottom: 4px solid #30A6A9 ;
-
-  }
-  .vannnnn a:nth-child(5){
-    border-bottom: 4px solid #30A6A9 ;
-
-  }
-  .vannnnnn a:nth-child(6){
-    border-bottom: 4px solid #30A6A9 ;
-
-  }
 
   .header{
     position:fixed;
@@ -411,6 +392,39 @@ align-items: center;
 }
 
 }
+
+
+@media(max-width:420px){
+    .logo{
+        margin-left: 30px;
+    }
+
+    
+.profilim_elanVer{
+    gap: 0;
+    padding: 0;
+    margin-right: 30px;
+
+}
+}
+@media(max-width:365px){
+.dropdown{
+    display: none;
+}
+
+    .logo{
+        margin-left: 100px;
+    }
+
+    
+.profilim_elanVer{
+    gap: 0;
+    padding: 0;
+    margin-right: 100px;
+
+}
+}
+
 
 @media(max-width:351px) {
     .border_ve_melumat_detail {

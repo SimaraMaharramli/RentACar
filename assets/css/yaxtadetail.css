@@ -76,6 +76,8 @@
 }
 
 
+
+
 .dropdown-content select{
     outline: none;
     border: none;
@@ -114,7 +116,12 @@
     border-radius: 5px;
 }
 
-.nav a:hover::after,
+.hover_effect_e a:hover::after,
+.hover_effect_y a:hover::after,
+.hover_effect_t a:hover::after,
+.hover_effect_m a:hover::after,
+.hover_effect_s a:hover::after,
+.hover_effect_el a:hover::after,
 .overlay a:hover::after {
     width: 100%;
     left: 0;
@@ -124,7 +131,12 @@
     display: none;
 }
 
-.nav a::after,
+.hover_effect_e a::after,
+.hover_effect_y a::after,
+.hover_effect_t a::after,
+.hover_effect_m a::after,
+.hover_effect_s a::after,
+.hover_effect_el a::after,
 .overlay a::after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
@@ -137,7 +149,6 @@
     transition: width .5s ease 0s, right .5s ease 0s;
     width: 0;
 }
-
 .dropbtn img {
     display: none;
 }
@@ -230,7 +241,50 @@
     padding-top: 5px;
 
 }
-/* 
+
+.mySwiper{
+    display: none;
+}
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+.swiper_image{
+    padding-top: 20px;
+
+}
+
+
+
+
+
 .mahin_haqqinda_melumat {
     display: flex;
     justify-content: space-around;
@@ -318,9 +372,9 @@
     padding: 20px 0;
     font-size: 20px;
     width: 100%;
+}
+
 @media(max-width:1200px) {
-
-
     .product-div {
         display: flex;
         justify-content: center;
@@ -408,9 +462,7 @@
 }
 
 @media(max-width:768px) {
-    .dis-none {
-        display: none;
-    }
+ */
     .nav a {
         display: none;
     }
@@ -425,11 +477,7 @@
         visibility: inherit;
     }
 
-    .nav a:hover::after,
-    .overlay a:hover::after {
-        width: 0;
-        left: 0;
-    }
+
 
     .elan_ {
         display: none;
@@ -535,12 +583,6 @@
 
 @media(max-width:500px) {
 
-    .header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 30px;
-    }
 
     .nav a {
         display: none;
@@ -563,45 +605,11 @@
         display: none;
     }
 
-    .dis-none {
-        display: none;
-    }
 
-    .dropbtn span {
-        display: none;
-    }
 
     .profilim_elanVer {
         display: flex;
         gap: 35px;
-    }
-
-    .first_car,
-    .second_car {
-        width: 40%;
-
-    }
-
-    .first_car img,
-    .second_car img {
-        width: 80px;
-    }
-
-    .hover-container {
-        display: flex;
-        gap: 40px;
-        margin-left: -15px;
-
-    }
-
-    .img-container {
-        display: flex;
-        justify-content: center;
-    }
-
-    .img-container img {
-        width: 350px;
-
     }
 
     .mahin_haqqinda_melumat {
@@ -609,18 +617,7 @@
         padding-left: 20px;
     }
 
-    .border_mashin_melumat {
-        display: flex;
-        flex-direction: column;
-        width: 84%;
-        height: 200px;
-        border: 1px solid #30A6A9;
-        border-radius: 10px;
-        align-items: flex-start;
-        gap: 20px;
-        padding-left: 10px;
-        padding-top: 10px;
-    }
+
 
     .ad_ve_marka p {
         font-size: 18px;
@@ -634,33 +631,127 @@
         width: 100%;
     }
 
-    .product-div {
-        width: 100%;
+
+    .product-div{
+        display: none;
     }
+
+    .mySwiper{
+        display: flex;
+    }
+
+    
+    .swiper_image img{
+        width: 90%;
+        border-radius: 10px;
+    }
+    .swiper_image{
+        display: flex;
+        justify-content: center;
+    }
+
+    .mobile{
+        padding: 30px 0;
+    }
+
+    .border_mashin_melumat{
+        display: none;
+    }
+
+    .mobilepriceModel{
+        display: flex;
+        flex-direction: column;
+    }
+    .modelstocar{
+        padding: 10px 0 20px 0;
+
+    }
+    .modelstocar p{
+        font-weight:600;
+        font-size: 26px;
+        padding-left:25px ;
+
+    }
+    .price{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #D3EAEB;
+        width: 90%;
+        height: 100px;
+        border-radius: 15px;
+
+    }
+    .price p{
+        color: #30A6A9;
+        font-size: 24px;
+
+        
+    }
+    .price_car{
+        display: flex;
+        justify-content: center;
+    }
+    .elaqe{
+        display: flex;
+        justify-content: center;
+    }
+
+    .elaqe_ input{
+        width: 95%;
+    }
+
+
 
 }
 
 @media(max-width:450px) {
+/* 
+    .logo{
+        margin-left: -15px;
+    } */
 
-    .first_car,
-    .second_car {
-        width: 40%;
-    }
-
-    .first_car img,
-    .second_car img {
-        width: 80px;
-    }
-
-    .hover-container {
-        display: flex;
-        gap: 40px;
-        justify-content: center;
-        margin-left: -20px;
-
-    }
+    
+.profilim_elanVer{
+    gap: 0;
+    padding: 0;
+    margin-right: 10px;
 
 }
+
+}
+
+@media(max-width:420px){
+    .logo{
+        margin-left: -15px;
+    }
+
+    
+.profilim_elanVer{
+    gap: 0;
+    padding: 0;
+    margin-right: 30px;
+
+}
+}
+@media(max-width:370px){
+.dropdown{
+    display: none;
+}
+
+    .logo{
+        margin: 0;
+    }
+
+    
+.profilim_elanVer{
+    gap: 0;
+    padding: 0;
+    margin-right: 100px;
+
+}
+}
+
 
 @media(max-width:405px) {
     .ad_ve_marka p {
@@ -748,3 +839,4 @@
     }
 
 }
+
