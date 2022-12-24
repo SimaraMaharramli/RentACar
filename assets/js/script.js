@@ -19,69 +19,130 @@ function closeeOverlay() {
 
 // nav
 
-const esasSehife = document.getElementsByClassName("esasSehife")[0]
-const yaxtaSehife = document.getElementsByClassName("yaxtaSehife")[0]
-const toyMashini = document.getElementsByClassName("toyMashini")[0]
-const miniVan = document.getElementsByClassName("miniVan")[0]
-const sedann = document.getElementsByClassName("sedann")[0]
-const elaqeee = document.getElementsByClassName("elaqeee")[0]
-const van = document.querySelector('.nav')
+const esasSehife = document.getElementsByClassName("esasSehive")[0]
+const yaxtaSehife = document.getElementsByClassName("yahta")[0]
+const toyMashini = document.getElementsByClassName("Toy_ma_shini")[0]
+const miniVan_ = document.getElementsByClassName("mini_van_")[0]
+const sedann = document.getElementsByClassName("sedan_n")[0]
+const elaqes = document.getElementsByClassName("elaqes")[0]
+
 
 esasSehife.addEventListener('click',ishlediEsas)
 yaxtaSehife.addEventListener('click',ishlediYaxta)
 toyMashini.addEventListener('click',ishlediToy)
-miniVan.addEventListener('click',ishlediVita)
+miniVan_.addEventListener('click',ishlediVita)
 sedann.addEventListener('click',ishlediSedan)
-elaqeee.addEventListener('click',ishlediElaqe)
+elaqes.addEventListener('click',ishlediElaqe)
+
 function ishlediEsas(){
-  van.classList.add('van')
-  van.classList.remove('vann')
-  van.classList.remove('vannn')
-  van.classList.remove('vannnn')
-  van.classList.remove('vannnnn')
-  van.classList.remove('vannnnnn')
-  
+  elaqes.classList.remove('van')
+  elaqes.classList.add('hover_effect_el')
+  esasSehife.classList.add('van')
+  esasSehife.classList.remove('hover_effect_e')
+  yaxtaSehife.classList.remove('van')
+  yaxtaSehife.classList.add('hover_effect_y')
+  miniVan_.classList.remove('van')
+  miniVan_.classList.add('hover_effect_m')
+  toyMashini.classList.remove('van')
+  toyMashini.classList.add('hover_effect_t')
+  sedann.classList.remove('van')
+  sedann.classList.add(' hover_effect_s')
+
 
 }
 function ishlediYaxta(){
-  van.classList.add('vann')
-  van.classList.remove('van')
-  van.classList.remove('vannn')
-  van.classList.remove('vannnn')
-  van.classList.remove('vannnnn')
-  van.classList.remove('vannnnnn')
+  elaqes.classList.remove('van')
+  elaqes.classList.add('hover_effect_el')
+  esasSehife.classList.add('hover_effect_e')
+  esasSehife.classList.remove('van')
+  yaxtaSehife.classList.add("van")
+  yaxtaSehife.classList.remove('hover_effect_y')
+  toyMashini.classList.remove('van')
+  toyMashini.classList.add('hover_effect_t')
+  miniVan_.classList.remove('van')
+  miniVan_.classList.add('hover_effect_m')
+  sedann.classList.remove('van')
+  sedann.classList.add(' hover_effect_s')
+
 }
 function ishlediToy(){
-  van.classList.add('vannn')
-  van.classList.remove('van')
-  van.classList.remove('vann')
-  van.classList.remove('vannnn')
-  van.classList.remove('vannnnn')
-  van.classList.remove('vannnnnn')
+  esasSehife.classList.remove('van')
+  esasSehife.classList.add('hover_effect_e')
+  elaqes.classList.remove('van')
+  elaqes.classList.add('hover_effect_el')
+  toyMashini.classList.add('van')
+  toyMashini.classList.remove('hover_effect_t')
+  yaxtaSehife.classList.remove('van')
+  yaxtaSehife.classList.add('hover_effect_y')
+  miniVan_.classList.remove('van')
+  miniVan_.classList.add('hover_effect_m')
+  sedann.classList.remove('van')
+  sedann.classList.add(' hover_effect_s')
+
 }
 function ishlediVita(){
-  van.classList.add('vannnn')
-  van.classList.remove('van')
-  van.classList.remove('vann')
-  van.classList.remove('vannn')
-  van.classList.remove('vannnnn')
-  van.classList.remove('vannnnnn')
+  elaqes.classList.remove('van')
+  elaqes.classList.add('hover_effect_el')
+  miniVan_.classList.add("van")
+  miniVan_.classList.remove('hover_effect_m')
+
+  toyMashini.classList.remove('van')
+  toyMashini.classList.add('hover_effect_t')
+
+  esasSehife.classList.remove('van')
+  esasSehife.classList.add('hover_effect_e')
+
+  yaxtaSehife.classList.remove('van')
+  yaxtaSehife.classList.add('hover_effect_y')
+
+  sedann.classList.remove('van')
+  sedann.classList.add(' hover_effect_s')
+
+
+
 }
 function ishlediSedan(){
-  van.classList.add('vannnnn')
-  van.classList.remove('van')
-  van.classList.remove('vann')
-  van.classList.remove('vannn')
-  van.classList.remove('vannnn')
-  van.classList.remove('vannnnnn')
+  elaqes.classList.remove('van')
+  elaqes.classList.add('hover_effect_el')
+
+  sedann.classList.add('van')
+  sedann.classList.remove('hover_effect_s' )
+
+  toyMashini.classList.remove('van')
+  toyMashini.classList.add('hover_effect_t')
+
+  esasSehife.classList.remove('van')
+  esasSehife.classList.add('hover_effect_e')
+
+  yaxtaSehife.classList.remove('van')
+  yaxtaSehife.classList.add('hover_effect_y')
+
+  miniVan_.classList.remove("van")
+  miniVan_.classList.add('hover_effect_m')
+
 }
 function ishlediElaqe(){
-  van.classList.add('vannnnnn')
-  van.classList.remove('van')
-  van.classList.remove('vann')
-  van.classList.remove('vannn')
-  van.classList.remove('vannnn')
-  van.classList.remove('vannnnn')
+  elaqes.classList.add('van')
+  elaqes.classList.remove('hover_effect_el')
+
+  miniVan_.classList.remove('van')
+  miniVan_.classList.add('hover_effect_m')
+
+  toyMashini.classList.remove('van')
+  toyMashini.classList.add('hover_effect_t')
+
+  esasSehife.classList.remove('van')
+  esasSehife.classList.add('hover_effect_e')
+
+  yaxtaSehife.classList.remove("van")
+  yaxtaSehife.classList.add("hover_effect_y")
+
+  sedann.classList.remove('van')
+  sedann.classList.add(' hover_effect_s')
+
+
+
+
 }
 
 //swiper
