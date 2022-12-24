@@ -624,7 +624,14 @@ html {
     .heading_form {
         width: 500px;
     }
-
+    .search_items .btn_search{
+    width: 323px;
+    margin-top: 1rem;
+    }
+    .search_icon{
+    top: 66%;
+    left: 37%;
+    }
     .right_side .border {
         display: none;
     }
@@ -686,6 +693,81 @@ html {
 
 }
 
+@media (max-width:370px) {
+    .heading_form {
+        width: 290px !important;
+    }
+    .search_input{
+        width: 270px !important;
+        margin-top: 1rem;
+    }
+   .search_items  .btn_search {
+    width: 270px !important;
+    margin-top: 1rem;
+    }
+    .search_icon{
+    top: 66%;
+    left: 33%;
+    }
+    .right_side .border {
+        display: none;
+    }
+
+    .right_side {
+        display: none;
+    }
+
+    .accordionsection {
+        display: block;
+    }
+
+    .hed {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15.4688px;
+        line-height: 23px;
+        color: #272727;
+    }
+
+    .accordion {
+        cursor: pointer;
+        width: 260px !important;
+        border: none;
+        text-align: left;
+        outline: none;
+        background-color: transparent;
+        transition: 0.4s;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15.4688px;
+        line-height: 23px;
+        color: #8B8989;
+    }
+
+    .accordion svg {
+        color: #272727;
+    }
+
+    .arrowup {
+        width: 24px;
+        height: auto;
+        float: right;
+        transform: rotate(180deg);
+    }
+
+    .panel {
+        padding: 0 15px;
+        display: none;
+        background-color: white;
+        overflow: hidden;
+    }
+
+    .accordionsection {
+        margin: 0 auto;
+    }
+}
 
 .home_it_work_txt {
     text-align: center;
