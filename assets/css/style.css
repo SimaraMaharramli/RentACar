@@ -18,7 +18,7 @@ html {
 .overlay {
     background: linear-gradient(0deg, rgba(187, 210, 197, 1) 0%, rgba(83, 105, 118, 1) 50%);
     position: fixed;
-    top: 0;
+    top: 30px;
     right: 0;
     height: 100vh;
     width: 0;
@@ -26,8 +26,8 @@ html {
 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     overflow-x: hidden;
     transition: .4s ease;
 }
@@ -51,7 +51,7 @@ html {
     position: absolute;
     font-size: 2rem;
     right: 15px;
-    top: 40px;
+    top: 10px;
     color: white;
 }
 
@@ -96,28 +96,40 @@ html {
     text-decoration: none;
 }
 
-.dropdown-content select {
-    outline: none;
-    border: none;
+.dropdown-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.qeydiyat{
+    display: flex;
+    align-items: center;
+}
+.qeydiyat i{
     color: #30A6A9;
-    background-color: white;
-    outline: 1px solid white;
-    border: 1px solid white;
+    font-size: 25px;
 
 }
 
-.dropdown-content option {
-    outline: 1px solid white;
-    border: 1px solid white;
-    color: black;
-    background-color: white;
+
+.dropdown-content p {
+
+    color: #30A6A9;
+    padding-left: 10px;
+
 
 }
+
+
+
+  
+
+
 
 
 .profilim_elanVer img {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 .profilim_elanVer span{
 color: #30A6A9;
@@ -138,6 +150,7 @@ margin: 10px;
     background-color: #30A6A9;
     padding: 10px 20px;
     border-radius: 5px;
+    width: 100px;
 }
 
 
@@ -217,12 +230,6 @@ margin: 10px;
 
 @media(max-width:500px) {
 
-    .header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 30px;
-    }
 
     .nav a {
         display: none;
@@ -233,12 +240,12 @@ margin: 10px;
         font-size: 25px;
     }
 
-    .img img {
+    /* .img img {
         display: none;
-    }
+    } */
 
     .dropbtn img {
-        display: inline;
+        display: none;
     }
 
     .elan_ {
@@ -320,9 +327,6 @@ margin: 10px;
         min-width: 30%;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         z-index: 1;
-    }
-    .dropdown-content select {
-    width: 80px !important;
     }
 
 }
@@ -958,7 +962,7 @@ margin: 10px;
 
 .mashin_melumat p,
 .yaxta_melumat p {
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 
@@ -992,17 +996,18 @@ margin: 10px;
 }
 
 .icone_text {
-    padding-left: 10px;
+    padding-left: 20px;
     display: flex;
     align-items: center;
-    width: 20px;
-    height: 20px;
+    gap:10px;
+
 }
 
 .icone_text img:nth-child(3) {
     width: 20px;
     height: 20px;
     border-radius: 0;
+    padding: 0;
 }
 
 .icone_text p:nth-child(1) {
@@ -1020,9 +1025,12 @@ margin: 10px;
 
 .icone_text p:nth-child(2) {
     font-size: 14px;
-    padding-right: 15px;
     padding-bottom: 0;
     margin: 0;
+    padding: 0px;
+}
+.icone_text p:nth-child(4){
+    padding: 0;
 }
 
 .icone_text p {
@@ -1071,7 +1079,7 @@ margin: 10px;
     }
 
     .icone_text {
-        padding-left: 10px;
+        padding-left: 20px;
         display: flex;
         align-items: center;
         width: 20px;
@@ -1109,7 +1117,7 @@ margin: 10px;
     }
 
     .icone_text {
-        padding-left: 10px;
+        padding-left: 20px;
         display: flex;
         align-items: center;
         width: 20px;
@@ -1168,7 +1176,7 @@ margin: 10px;
 
     .yaxta_melumat {
         width: 350px;
-        height: 230px;
+        height: 240px;
         border-radius: 20px;
         box-shadow: 5px 5px 5px rgb(237, 235, 235);
     }
@@ -1189,6 +1197,17 @@ margin: 10px;
         width: 100%;
         padding: 0;
     }
+
+    .mashin_melumat p,
+.yaxta_melumat p {
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+.icone_text{
+    padding-left: 20px;
+}
+
 
 
 
@@ -1277,6 +1296,26 @@ margin: 10px;
 }
 
 @media(max-width:500px) {
+
+    .header {
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        background-color: white;
+        padding: 20px 20px;
+        z-index: +4;
+        margin: 0;
+
+    }
+
+
+    .yaxta_melumat {
+        height: 250px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px rgb(237, 235, 235);
+    }
+    
     .axtar_sec_kirayele {
         flex-direction: column;
     }
