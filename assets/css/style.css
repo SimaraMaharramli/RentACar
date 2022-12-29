@@ -116,8 +116,12 @@ html {
 
 
 .profilim_elanVer img {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
+}
+.profilim_elanVer span{
+color: #30A6A9;
+margin: 10px;
 }
 
 .elan_ {
@@ -317,6 +321,9 @@ html {
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         z-index: 1;
     }
+    .dropdown-content select {
+    width: 80px !important;
+    }
 
 }
 
@@ -418,7 +425,7 @@ html {
 .search_input {
     box-sizing: border-box;
     padding: 0 10px;
-    width: 310px;
+    width: 170px;
     height: 50px;
     background: #FFFFFF;
     border: 1px solid #E6E6E6;
@@ -429,7 +436,7 @@ html {
 .btn_search {
     border: none;
     outline: none;
-    width: 126px;
+    width: 80px;
     color: white;
 
     height: 50px;
@@ -440,7 +447,7 @@ html {
 .search_icon {
     position: absolute;
     top: 14px;
-    right: 20%;
+    right: 24%;
     color: white;
 }
 
@@ -450,12 +457,17 @@ html {
     }
 
     .search_input {
-        width: 200px;
+        width: 180px;
     }
-
+    .btn_search {
+        width: 80px;
+    }
     .search_icon {
         top: 13px;
-        right: 27%;
+        right: 22%;
+    }
+    .right_side {
+        gap: 40px;
     }
 }
 
@@ -465,13 +477,15 @@ html {
     }
 
     .search_input {
-        width: 200px;
+        width: 180px;
     }
 
     .btn_search {
-        width: 80px;
+        width: 70px;
     }
-
+    .right_side {
+        gap: 20px;
+    }
     .search_icon {
         top: 13px;
         right: 21%;
@@ -485,11 +499,11 @@ html {
     }
 
     .search_items .search_input {
-        width: 250px;
+        width: 188px;
     }
 
     .search_items .btn_search {
-        width: 100px;
+        width: 77px;
     }
 }
 
@@ -500,7 +514,7 @@ html {
     }
 
     .right_side {
-        gap: 44px;
+        gap: 20px;
     }
 }
 
@@ -516,7 +530,7 @@ html {
     }
 
     .right_side {
-        gap: 50px;
+        gap: 20px;
     }
 
     .search_items {
@@ -594,7 +608,7 @@ html {
     }
 
     .right_side {
-        gap: 50px;
+        gap: 20px;
     }
 
     .search_items {
@@ -1602,11 +1616,11 @@ footer {
 /* Responsivo */
 @media (max-width:1240px) {
     .form-sub input {
-        width: 111px !important;
+        width: 111px ;
     }
 
     .form-sub button {
-        width: 38px !important;
+        width: 38px ;
     }
 }
 
