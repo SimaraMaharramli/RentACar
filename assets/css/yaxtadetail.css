@@ -162,6 +162,7 @@
 .product-div {
     display: flex;
     justify-content: center;
+    
 }
 
 
@@ -179,6 +180,7 @@
 .hover-container {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .hover-container img {
@@ -186,6 +188,9 @@
 }
 
 .product-div-left {
+    /* flex-direction: column;
+    align-items: center; */
+    /* padding: 20px 0; */
     padding: 20px 0;
     display: flex;
   
@@ -471,7 +476,7 @@
 }
 
 @media(max-width:768px) {
- */
+ 
     .nav a {
         display: none;
     }
