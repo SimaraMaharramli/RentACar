@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.overlay {
+/* .overlay {
     background: linear-gradient(0deg, rgba(187, 210, 197, 1) 0%, rgba(83, 105, 118, 1) 50%);
     position: fixed;
     top: 0;
@@ -31,9 +31,9 @@
 
 .overlay a:hover {
     color: var(--i, #fff);
-}
+} */
 
-.fa-bars {
+/* .fa-bars {
     visibility: hidden;
 }
 
@@ -43,7 +43,7 @@
     right: 15px;
     top: 40px;
     color: white;
-}
+} */
 
 .active {
     width: 50%;
@@ -88,22 +88,7 @@
 }
 
 
-.dropdown-content select{
-    outline: none;
-    border: none;
-    color: #30A6A9;
-    background-color: white;
-    outline: 1px solid white;
-    border: 1px solid white;
 
-}
-.dropdown-content option{
-    outline: 1px solid white;
-    border: 1px solid white;
-    color: black;
-    background-color: white;
-
-}
 
 
 .profilim_elanVer img {
@@ -631,6 +616,22 @@
     
 
 }
+@media(max-width:950px){
+    .nav a {
+        display: none;
+    }
+
+    .fa-bars {
+        visibility: inherit;
+        margin-left: 30px;
+        font-size: 25px;
+    }
+    .elan___{
+        display: none;
+    }
+
+    
+}
 
 @media(max-width:860px) {
 
@@ -824,12 +825,46 @@
 
 @media(max-width:500px) {
 
+
+    .nav{
+        display: none;
+    }
+
     .header {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 30px;
+        justify-content: space-around;
+        background-color: white;
+        padding:  20px 10px;
+        width:100%;
+        z-index: +4;
+        margin: 0;
+        gap: 0;
+
     }
+
+    .fa-bars{
+        width: 20px;
+    }
+    .profilim_elanVer{
+        gap: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .accordo{
+        position: fixed;
+        z-index: +10;
+        top: 32px;
+        right: 11.5rem;
+        width: 110px;
+    
+    
+    }
+    .img{
+        padding-right: 50px;
+    }
+
 
     .nav a {
         display: none;
@@ -840,9 +875,7 @@
         font-size: 25px;
     }
 
-    .img img {
-        display: none;
-    }
+
 
     .dropbtn img {
         display: inline;
@@ -1003,37 +1036,27 @@
         font-size: 11px;
     }
 
+
+
 }
 
 
-@media(max-width:450px){
-    .logo{
-        margin-left: -10px;
+@media(max-width:400px){
+    .accoror{
+        display: block;
     }
+}
+
 
     
-.profilim_elanVer{
-    gap: 0;
-    padding: 0;
 
-}
-}
 @media(max-width:390px){
 .dropdown{
     display: none;
 }
 
-    /* .logo{
-        margin-left: 100px;
-    } */
 
-    
-.profilim_elanVer{
-    gap: 50px;
-    padding: 0;
-    /* margin-right: 100px; */
 
-}
 }
 
 
