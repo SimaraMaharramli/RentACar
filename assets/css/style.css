@@ -135,7 +135,7 @@ html {
 }
 
 
-.accordion {
+.activatos_sign {
     outline: none;
     background-color: transparent;
     font-family: 'Poppins';
@@ -761,6 +761,8 @@ margin: 10px;
     color: white;
 }
 
+
+
 @media (max-width: 1170px) {
     .heading_form {
         width: 1080px;
@@ -979,7 +981,7 @@ margin: 10px;
 
     .accordion {
         cursor: pointer;
-        width: 420px;
+        width:  420px;
         border: none;
         text-align: left;
         outline: none;
@@ -997,8 +999,9 @@ margin: 10px;
         color: #272727;
     }
 
+
     .arrowup {
-        width: 24px;
+        height: 20px;
         height: auto;
         float: right;
         transform: rotate(180deg);
@@ -1630,7 +1633,7 @@ margin: 10px;
     .accordo{
         position: fixed;
         z-index: +10;
-        top: 32px;
+        top: 43px;
         right: 10rem;
         width: 110px;
     
