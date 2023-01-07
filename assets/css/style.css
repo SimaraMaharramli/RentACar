@@ -16,6 +16,7 @@ html {
 
 
 .overlay {
+   
     background: linear-gradient(0deg, rgba(187, 210, 197, 1) 0%, rgba(83, 105, 118, 1) 50%);
     position: fixed;
     top: 30px;
@@ -69,6 +70,7 @@ html {
 
 .active {
     width: 50%;
+    padding: 0px 16px;
 }
 
 .header {
@@ -1914,7 +1916,15 @@ footer {
     color: #cecdcd;
     padding-left: 10px;
 }
-
+.footer-col  .ftextsade{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FDFDFD;
+    margin-bottom: 1rem;
+}
 .footer-col .medias-socias {
     margin-top: 30px;
 }
