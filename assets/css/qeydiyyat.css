@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.all{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* width: 140%; */
+    padding-left: 100px;
+
+}
+
+.left h2{
+    display: flex;
+    align-items: flex-start;
+    font-size: 28px;
+    text-align: start;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.left input{
+    display: flex;
+    width: 400px;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid #e6e6e6;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+
+
+.left button{
+    width: 400px;
+    height: 45px;
+    border: none;
+    background-color: #3E86F5;
+    border-radius: 6px;
+    color: white;
+}
+
+.right{
+    background: url( ../img/hyde-park-house-robeson-architects_2.svg ) no-repeat;
+    height: 100vh;
+}
+
+.right img{
+    height: 100vh;
+
+}
+
+.right h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    margin-top: -400px;
+}
+
+@media(max-width:1200px){
+    .right{
+        display: none;
+    }
+    .left{
+        padding: 0;
+    }
+
+    #left{
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        height: 100vh;
+    }
+}
+
+@media(max-width:420px){
+    .left input{
+        width:350px;
+    }
+    .left button{
+        width:350px;
+    }
+}
+@media(max-width:351px){
+    .left input{
+        width:300px;
+    }
+    .left button{
+        width:300px;
+    }
+}
