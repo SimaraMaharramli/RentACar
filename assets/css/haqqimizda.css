@@ -8,11 +8,14 @@
     color: #2A2B36;
     margin-bottom: 2rem !important;
 }
-.salam{
+.salam {
     display: flex;
     flex-direction: column;
     align-items: center;
 
+}
+.necesiz{
+padding-left: 6%;
 }
 .sagol{
     width: 87%;
@@ -24,7 +27,7 @@
 }
 
 .salam  img{
-    width: 1320px;
+    width: 88%;
     height: 163px;
 }
 .salam  .text_about{
@@ -37,7 +40,7 @@
 .about_imagess{
 display: flex;
 justify-content: flex-start;
-align-items: center;
+
 gap: 20px;
 margin-bottom: 20px;
 }
@@ -46,10 +49,19 @@ margin-bottom: 20px;
     height: 218px;
 }
 .center_container{
-    padding-top: 120px;
-
+    padding-top: 7rem;
 }
 
-.necesiz{
-    padding-left: 100px;
+@media (max-width:953px) {
+   .about_imagess .haqqimzda img{
+        width: 233px;
+        height: 200px;
+    }
 }
+@media (max-width:770px) {
+   .about_imagess .haqqimzda img{
+    width: 217px;
+    height: 189px;
+    }
+}
+

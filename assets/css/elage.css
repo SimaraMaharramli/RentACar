@@ -1,0 +1,104 @@
+.container_contact{
+padding-top: 7rem;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.contact_head{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    color: #212121;    
+}
+.contact_items_all{
+width: 80%;
+padding: 25px;
+display:flex ;
+gap: 10%;
+border: 1px solid #E1E1E1;
+border-radius: 12px;
+margin-bottom: 20px;
+}
+.headingcontact{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.form_elaqeeee label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px; 
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.form_elaqeeee input{
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+outline: none;
+height: 50px;
+width: 508px;
+padding: 0px 16px;
+
+}
+.form_elaqeeee input::placeholder{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.form_elaqeeee textarea{
+    height: 181px;
+    width: 510px;
+    background: #F9F9F9;
+border: 1px solid #DDDDDD;
+border-radius: 5px;
+    outline: none;
+}
+.form_elaqeeee button {
+    width: 510px;
+    height: 52px;
+    
+    background: #30A6A9;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+/* light-text-color */
+
+color: #FFFFFF;
+border: none;
+outline: none;
+}
+.adres_items p{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+    
+    letter-spacing: 0.2px;
+    
+    color: #212121;
+}

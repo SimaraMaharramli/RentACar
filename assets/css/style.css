@@ -2008,9 +2008,40 @@ footer {
 /* Responsivo */
 @media (max-width:1240px) {
     .form-sub input {
-        width: 111px ;
+        width: 206px  ;
     }
-
+    .form-sub button {
+        width: 38px ;
+    }
+}
+@media (max-width:1220px) {
+    .form-sub input {
+        width: 180px  ;
+    }
+    .form-sub button {
+        width: 38px ;
+    }
+}
+@media (max-width:1120px) {
+    .form-sub input {
+        width: 150px  ;
+    }
+    .form-sub button {
+        width: 38px ;
+    }
+}
+@media (max-width:990px) {
+    .form-sub input {
+        width: 110px  ;
+    }
+    .form-sub button {
+        width: 38px ;
+    }
+}
+@media (max-width:815px) {
+    .form-sub input {
+        width: 90px  ;
+    }
     .form-sub button {
         width: 38px ;
     }
@@ -2018,14 +2049,14 @@ footer {
 
 @media (max-width: 800px) {
     .footer-col {
-        width: 100%;
+        width:100% ;
         margin-bottom: 30px;
     }
 }
 
 @media (max-width:600px) {
     .footer-col {
-        width: 100%;
+        width: 100% ;
         margin-bottom: 30px;
     }
 
