@@ -88,6 +88,10 @@ html {
     font-size: 30px;
 }
 
+.logo img{
+    width:60px;
+}
+
 .nav {
     display: flex;
     gap: 30px;
@@ -121,7 +125,7 @@ html {
 .accordo{
     position: fixed;
     z-index: +10;
-    top: 32px;
+    top: 43px;
     right: 20.5rem;
     width: 110px;
 
@@ -244,7 +248,7 @@ margin: 10px;
     .accordo{
         position: fixed;
         z-index: +10;
-        top: 32px;
+        top: 43px;
         right: 14rem;
         width: 200px;
     }
@@ -255,7 +259,7 @@ margin: 10px;
     .accordo{
         position: fixed;
         z-index: +10;
-        top: 32px;
+        top: 43px;
         right: 12.5rem;
         width: 200px;
     }
@@ -266,7 +270,7 @@ margin: 10px;
     .accordo{
         position: fixed;
         z-index: +10;
-        top: 32px;
+        top: 43px;
         right: 16rem;
         width:110px ;
     }
@@ -279,7 +283,7 @@ margin: 10px;
     .accordo{
         position: fixed;
         z-index: +10;
-        top: 32px;
+        top: 43px;
         right: 15.5rem;
         width: 110px;
     }
@@ -293,7 +297,7 @@ margin: 10px;
     .accordo{
         position: fixed;
         z-index: +10;
-        top: 32px;
+        top: 43px;
         right: 15rem;
         width: 110px;
     }
@@ -305,7 +309,7 @@ margin: 10px;
     .accordo{
         position: fixed;
         z-index: +10;
-        top: 32px;
+        top: 43px;
         right: 13.2rem;
         width: 110px;
     }
@@ -332,7 +336,7 @@ margin: 10px;
     .accordo{
         position: fixed;
         z-index: +10;
-        top: 32px;
+        top: 43px;
         right: 12.5rem;
         width: 110px;
     }
@@ -345,7 +349,7 @@ margin: 10px;
     .accordo{
         position: fixed;
         z-index: +10;
-        top: 32px;
+        top: 43px;
         right: 6rem;
         width: 200px;
     }
@@ -357,7 +361,7 @@ margin: 10px;
     .accordo{
         position: fixed;
         z-index: +10;
-        top: 32px;
+        top: 43px;
         right: 12rem;
         width: 110px;
         transition: 0s ease;
@@ -371,7 +375,7 @@ margin: 10px;
     .accordo{
         position: fixed;
         z-index: +10;
-        top: 32px;
+        top: 43px;
         right: 11.5rem;
         width: 110px;
     }
@@ -387,7 +391,7 @@ margin: 10px;
     .accordo{
         position: fixed;
         z-index: +10;
-        top: 32px;
+        top: 43px;
         right: 10.8rem;
         width: 110px;
     }
@@ -400,7 +404,7 @@ margin: 10px;
     .accordo{
         position: fixed;
         z-index: +10;
-        top: 32px;
+        top: 43px;
         right: 9.5rem;
         width: 110px;
         transition: 0s ease;
@@ -426,7 +430,7 @@ margin: 10px;
     .accordo{
         position: fixed;
         z-index: +10;
-        top: 32px;
+        top: 43px;
         right:9rem;
         width: 110px !important;
     }
@@ -634,7 +638,7 @@ margin: 10px;
 
 #header_swiper {
     position: relative;
-    padding-top: 100px;
+    padding-top: 120px;
 }
 
 .swiper {
