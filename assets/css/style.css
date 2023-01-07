@@ -1663,40 +1663,6 @@ margin: 10px;
 
 }
 
-/* @media(max-width:420px){
-    .header{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        padding-left: 30px;
-    }
-    .accordo{
-        position: fixed;
-        z-index: +10;
-        top: 32px;
-        right: 2.5rem;
-        width: 200px;
-    }
-
-    .img{
-        padding-right:75px ;
-        width: 100%;
-    }
-    .img img{
-        width: 20px;
-        height: 20px;
-    }
-
-    .accordo button{
-        font-size: 14px;
-    }
-
-    .qeydiyat p,.qeydiyat i{
-        font-size:15px ;
-
-    }
-} */
 
 
 
@@ -1881,6 +1847,9 @@ margin: 10px;
 footer {
     background-color: #272727;
     padding: 45px 0 10px;
+}
+.footer-col img{
+    width: 100px;
 }
 
 .container-footer {
