@@ -102,3 +102,36 @@ outline: none;
     
     color: #212121;
 }
+@media (max-width:973px) {
+    .form_elaqeeee input{
+    width: 300px;
+    }
+    .form_elaqeeee  textarea{
+    width: 300px;
+    }
+    .form_elaqeeee button{
+    width: 300px;
+    }
+     .headingcontact{
+    font-size: 16px !important;
+    }
+}
+@media (max-width:700px) {
+    .contact_items_all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+}
+@media (max-width:450px) {
+    .form_elaqeeee input{
+        width: 220px;
+        }
+        .form_elaqeeee  textarea{
+        width: 220px;
+        }
+        .form_elaqeeee button{
+        width: 220px;
+        }
+}

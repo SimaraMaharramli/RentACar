@@ -2006,46 +2006,31 @@ footer {
 }
 
 /* Responsivo */
-@media (max-width:1240px) {
+@media only screen and (min-width: 1200px){
     .form-sub input {
-        width: 206px  ;
+        width: 50% !important  ;
     }
     .form-sub button {
         width: 38px ;
     }
 }
-@media (max-width:1220px) {
+@media only screen and (min-width: 900px){
     .form-sub input {
-        width: 180px  ;
+        width: 50% !important;
     }
     .form-sub button {
         width: 38px ;
     }
 }
-@media (max-width:1120px) {
+@media only screen and (min-width: 800px){
     .form-sub input {
-        width: 150px  ;
+        width: 50% !important;
     }
     .form-sub button {
         width: 38px ;
     }
 }
-@media (max-width:990px) {
-    .form-sub input {
-        width: 110px  ;
-    }
-    .form-sub button {
-        width: 38px ;
-    }
-}
-@media (max-width:815px) {
-    .form-sub input {
-        width: 90px  ;
-    }
-    .form-sub button {
-        width: 38px ;
-    }
-}
+
 
 @media (max-width: 800px) {
     .footer-col {
