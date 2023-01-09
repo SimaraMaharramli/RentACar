@@ -16,7 +16,6 @@ html {
 
 
 .overlay {
-   
     background: linear-gradient(0deg, rgba(187, 210, 197, 1) 0%, rgba(83, 105, 118, 1) 50%);
     position: fixed;
     top: 30px;
@@ -31,7 +30,7 @@ html {
     /* justify-content: center; */
     overflow-x: hidden;
     transition: .4s ease;
-    padding-top: 30px;
+    padding-top: 30px !important;
 }
 
 .overlay a {
