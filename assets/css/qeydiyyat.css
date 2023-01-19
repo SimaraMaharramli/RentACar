@@ -48,7 +48,7 @@
     width: 400px;
     height: 45px;
     border: none;
-    background-color: #3E86F5;
+    background-color:#30A6A9;
     border-radius: 6px;
     color: white;
 }
@@ -56,11 +56,12 @@
 .right{
     background: url( ../img/hyde-park-house-robeson-architects_2.svg ) no-repeat;
     height: 100vh;
+    filter: brightness(0.5);
 }
 
 .right img{
     height: 100vh;
-
+    object-fit: cover;
 }
 
 .right h2{
@@ -70,6 +71,15 @@
     color: white;
     font-size: 40px;
     margin-top: -400px;
+}
+.right p{
+font-family: 'Poppins';
+font-style: normal;
+text-align: center;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: white;
 }
 
 @media(max-width:1200px){

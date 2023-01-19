@@ -1,0 +1,12 @@
+.left .kubikler{
+display: flex;
+justify-content: flex-start;
+gap: 20px;
+}
+.kubikler input{
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 6px;
+    width: 45px;
+    height: 45px;
+}
