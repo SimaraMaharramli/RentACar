@@ -3,9 +3,13 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    /* outline: 1px solid red; */
 }
 
+.asasa{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+}
 
 .overlay {
     background: linear-gradient(0deg, rgba(187, 210, 197, 1) 0%, rgba(83, 105, 118, 1) 50%);
@@ -168,45 +172,6 @@
     padding-top: 100px;
 }
 
-
-
-.product-div {
-    display: flex;
-    justify-content: center;
-    
-}
-
-
-.img-container img {
-    width: 770px ;
-    height: 516px ;
-
-}
-
-.hover-container img{
-    width: 250px;
-    height: 215px;
-}
-
-.hover-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hover-container img {
-    padding-left: 20px;
-}
-
-.product-div-left {
-    /* flex-direction: column;
-    align-items: center; */
-    /* padding: 20px 0; */
-    padding: 20px 0;
-    display: flex;
-  
-}
-
 .border_mashin_melumat {
     display: flex;
     width: 84%;
@@ -356,7 +321,6 @@
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #E7E7E7;
-
     padding: 10px 0;
 
 }
@@ -390,73 +354,8 @@
     font-size: 20px;
     width: 100%;
 }
-@media (max-width:1400px) {
-    .product-div-left {
-        padding: 20px 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-}
-@media(max-width:1200px) {
-    .product-div {
-        display: flex;
-        justify-content: center;
-
-    }
-
-    .img-container img {
-        width: 100%;
-        height: 416px;
-    }
-
-    .hover-container {
-        display: flex;
-        align-items: center;
-    }
-
-    .first_car,
-    .second_car {
-        display: flex;
-    }
-
-    .hover-container img {
-        padding-left: 20px;
-
-    }
-
-    .product-div-left {
-        display: block;
-        padding: 20px 0;
-    }
-
-}
-
-@media(max-width:1070px) {
 
 
-    .hover-container {
-        display: flex;
-        gap: 20px;
-    }
-
-    .first_car,
-    .second_car {
-        flex-wrap: nowrap;
-        width: 100%;
-        padding: 0;
-        display: flex;
-        gap: 20px;
-    }
-
-    .first_car img,
-    .second_car img {
-        width: 180px;
-        padding: 0;
-    }
-
-}
 @media(max-width:950px){
     .nav a {
         display: none;
@@ -474,26 +373,7 @@
     
 }
 
-@media(max-width:860px) {
 
-    .first_car,
-    .second_car {
-        width: 320px;
-
-    }
-
-    .hover-container {
-        display: flex;
-        gap: 40px;
-        justify-content: center;
-    }
-
-    .first_car img,
-    .second_car img {
-        width: 160px;
-
-    }
-}
 
 @media (max-width: 800px) {
     .footer-col {
@@ -523,24 +403,6 @@
     .elan_ {
         display: none;
     }
-
-    .first_car,
-    .second_car {
-        width: 300px;
-    }
-
-    .first_car img,
-    .second_car img {
-        width: 140px;
-    }
-
-    .hover-container {
-        display: flex;
-        gap: 20px;
-        justify-content: center;
-    }
-
-
     .ab {
         display: none;
 
@@ -574,47 +436,11 @@
     }
 }
 
-@media(max-width:700px) {
-
-    .first_car,
-    .second_car {
-        width: 250px;
-    }
-
-    .first_car img,
-    .second_car img {
-        width: 120px;
-    }
-
-    .hover-container {
-        display: flex;
-        gap: 30px;
-        justify-content: center;
-        margin-left: -15px;
-
-    }
-}
 
 @media(max-width:600px) {
 
     .mashin_img {
         padding-top: 20px;
-    }
-
-    .first_car,
-    .second_car {
-        width: 200px;
-    }
-
-    .first_car img,
-    .second_car img {
-        width: 100px;
-    }
-
-    .hover-container {
-        display: flex;
-        gap: 40px;
-        justify-content: center;
     }
 
     .footer-col {

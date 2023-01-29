@@ -1,6 +1,6 @@
 
-const allHoverImages = document.querySelectorAll('.hover-container div img');
-const imgContainer = document.querySelector('.img-container');
+const allHoverImages = document.querySelectorAll('.product_div div img');
+const imgContainer = document.querySelector('.img-global');
 
 window.addEventListener('DOMContentLoaded', () => {
     allHoverImages[0].parentElement.classList.add('active');
